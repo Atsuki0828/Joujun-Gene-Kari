@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611d34752c4c740208e1fd901003d0e2, type: 3}
+  m_Name: yari
+  m_EditorClassIdentifier: 
+  kindOfItem: 0
+  have_tech_level: 2
+  icon: {fileID: 21300000, guid: 9929492d3349f4379aadc15a124ac9fe, type: 3}
+  itemName: "\u69CD"
+  ATK: 14
+  ATKSpeed: 100
+  guard: 5
+  unitcost: 7
+  bulletproofness: 0
+  bulletATK: 0
+  bulletATKSpeed: 0
+  bulletSpeed: 0
+  bulletrange: 0
+  bulletAccuracy: 0
+  bulletgameobject: {fileID: 0}
+  unitspeeddown: 3
+  information: "\u69CD"

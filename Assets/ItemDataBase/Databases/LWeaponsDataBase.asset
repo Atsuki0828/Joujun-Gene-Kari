@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc9053582de34f358ee0036f1b113f7, type: 3}
+  m_Name: LWeaponsDataBase
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 11400000, guid: 43d9440c92213426bb90039d57430e8d, type: 2}
+  - {fileID: 11400000, guid: d65becfd89d274606b3c674c366793c3, type: 2}
+  - {fileID: 11400000, guid: e8809868c31494dd2833857e63cc9c76, type: 2}
+  - {fileID: 11400000, guid: a9301030434aa44149b6ca59d85c620c, type: 2}
+  - {fileID: 11400000, guid: d483dadc50be64366b8abeecfdce3834, type: 2}
+  - {fileID: 11400000, guid: ea4030ec8ca8e48e39ab58f41eaf1716, type: 2}
+  - {fileID: 11400000, guid: c551565d33fb24f30b20165bb8852017, type: 2}
