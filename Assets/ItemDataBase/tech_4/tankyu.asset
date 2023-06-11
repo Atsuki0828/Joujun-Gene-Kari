@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611d34752c4c740208e1fd901003d0e2, type: 3}
+  m_Name: tankyu
+  m_EditorClassIdentifier: 
+  kindOfItem: 1
+  have_tech_level: 4
+  icon: {fileID: 21300000, guid: dfba3ee5daf6b421ea0352d9cf96c258, type: 3}
+  itemName: "\u77ED\u5F13"
+  ATK: 3
+  ATKSpeed: 100
+  guard: 0
+  unitcost: 8
+  bulletproofness: 0
+  bulletATK: 40
+  bulletATKSpeed: 550
+  bulletSpeed: 30
+  bulletrange: 30
+  bulletAccuracy: 3
+  bulletgameobject: {fileID: 8117647457757223856, guid: 058a17eac2aea43ad80ecbe9ee92df59, type: 3}
+  unitspeeddown: 1
+  information: "\u5F13"

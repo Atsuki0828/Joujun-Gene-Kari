@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc9053582de34f358ee0036f1b113f7, type: 3}
+  m_Name: ArmorsDataBase
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 11400000, guid: 248826ea8bd2147bf8f0e5f83ae2a1ee, type: 2}
+  - {fileID: 11400000, guid: 0db28cb8513b24eaa9e636a31b512462, type: 2}
+  - {fileID: 11400000, guid: df35c585b39b741379d88314def75a37, type: 2}
+  - {fileID: 11400000, guid: a9637672c3c1f43968501d8deac5674d, type: 2}
+  - {fileID: 11400000, guid: 87f010cd5fc184cc0abf79fd6772ffac, type: 2}
+  - {fileID: 11400000, guid: 156d2aa057249470ab0e3018badb2105, type: 2}
+  - {fileID: 11400000, guid: ef02d9e46b6434cd3858ad4b7a7f9ca4, type: 2}
