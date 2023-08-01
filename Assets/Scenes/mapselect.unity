@@ -364,6 +364,8 @@ GameObject:
   - component: {fileID: 31739264}
   - component: {fileID: 31739263}
   - component: {fileID: 31739265}
+  - component: {fileID: 31739266}
+  - component: {fileID: 31739267}
   m_Layer: 5
   m_Name: point65
   m_TagString: Untagged
@@ -445,6 +447,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 000000000000000003000000
+--- !u!114 &31739266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31739261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &31739267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31739261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &34370024
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +488,8 @@ GameObject:
   - component: {fileID: 34370027}
   - component: {fileID: 34370026}
   - component: {fileID: 34370028}
+  - component: {fileID: 34370029}
+  - component: {fileID: 34370030}
   m_Layer: 5
   m_Name: point61
   m_TagString: Untagged
@@ -538,6 +571,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 0000000003000000
+--- !u!114 &34370029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34370024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &34370030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34370024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &36938881
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,7 +685,7 @@ RectTransform:
   - {fileID: 1728137230}
   - {fileID: 1510644690}
   m_Father: {fileID: 993531502}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -755,6 +817,8 @@ GameObject:
   - component: {fileID: 57306636}
   - component: {fileID: 57306635}
   - component: {fileID: 57306637}
+  - component: {fileID: 57306638}
+  - component: {fileID: 57306639}
   m_Layer: 5
   m_Name: point19
   m_TagString: Untagged
@@ -836,6 +900,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 0
   pointBuildingList: 0b0000000b0000000900000009000000
+--- !u!114 &57306638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57306633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &57306639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57306633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &57670915
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +1043,7 @@ RectTransform:
   - {fileID: 1758975366}
   - {fileID: 641052327}
   m_Father: {fileID: 993531502}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1007,6 +1100,8 @@ GameObject:
   - component: {fileID: 65134325}
   - component: {fileID: 65134324}
   - component: {fileID: 65134326}
+  - component: {fileID: 65134327}
+  - component: {fileID: 65134328}
   m_Layer: 5
   m_Name: point68
   m_TagString: Untagged
@@ -1088,6 +1183,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 00000000000000000300000003000000
+--- !u!114 &65134327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65134322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &65134328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65134322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &74249452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1303,8 @@ GameObject:
   - component: {fileID: 98336254}
   - component: {fileID: 98336253}
   - component: {fileID: 98336255}
+  - component: {fileID: 98336256}
+  - component: {fileID: 98336257}
   m_Layer: 5
   m_Name: point11
   m_TagString: Untagged
@@ -1260,6 +1386,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 0300000003000000
+--- !u!114 &98336256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98336251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &98336257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98336251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &120699829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1427,8 @@ GameObject:
   - component: {fileID: 120699832}
   - component: {fileID: 120699831}
   - component: {fileID: 120699833}
+  - component: {fileID: 120699834}
+  - component: {fileID: 120699835}
   m_Layer: 5
   m_Name: point59
   m_TagString: Untagged
@@ -1353,6 +1510,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 1
   pointBuildingList: 00000000
+--- !u!114 &120699834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120699829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &120699835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120699829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &126017582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,6 +1551,8 @@ GameObject:
   - component: {fileID: 126017585}
   - component: {fileID: 126017584}
   - component: {fileID: 126017586}
+  - component: {fileID: 126017587}
+  - component: {fileID: 126017588}
   m_Layer: 5
   m_Name: point38
   m_TagString: Untagged
@@ -1446,6 +1634,35 @@ MonoBehaviour:
   pointTerrain: 6
   pointTemperature: 1
   pointBuildingList: 0c0000000c0000000c00000001000000
+--- !u!114 &126017587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126017582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &126017588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126017582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &131762358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,6 +1835,8 @@ GameObject:
   - component: {fileID: 171199817}
   - component: {fileID: 171199816}
   - component: {fileID: 171199818}
+  - component: {fileID: 171199819}
+  - component: {fileID: 171199820}
   m_Layer: 5
   m_Name: point70
   m_TagString: Untagged
@@ -1699,6 +1918,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 3
   pointBuildingList: 000000000000000003000000
+--- !u!114 &171199819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171199814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &171199820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171199814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &187893564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1948,6 +2196,8 @@ GameObject:
   - component: {fileID: 205474738}
   - component: {fileID: 205474737}
   - component: {fileID: 205474739}
+  - component: {fileID: 205474740}
+  - component: {fileID: 205474741}
   m_Layer: 5
   m_Name: point43
   m_TagString: Untagged
@@ -2029,6 +2279,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &205474740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205474735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &205474741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205474735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &210420014
 GameObject:
   m_ObjectHideFlags: 0
@@ -2120,6 +2399,8 @@ GameObject:
   - component: {fileID: 217024771}
   - component: {fileID: 217024770}
   - component: {fileID: 217024772}
+  - component: {fileID: 217024773}
+  - component: {fileID: 217024774}
   m_Layer: 5
   m_Name: point45
   m_TagString: Untagged
@@ -2201,6 +2482,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &217024773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217024768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &217024774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217024768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &241949422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,6 +2523,8 @@ GameObject:
   - component: {fileID: 241949425}
   - component: {fileID: 241949424}
   - component: {fileID: 241949426}
+  - component: {fileID: 241949427}
+  - component: {fileID: 241949428}
   m_Layer: 5
   m_Name: point47
   m_TagString: Untagged
@@ -2294,6 +2606,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 0800000008000000080000000700000007000000070000000a0000000a0000000c000000
+--- !u!114 &241949427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241949422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &241949428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241949422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &283851509
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2722,8 @@ GameObject:
   - component: {fileID: 287933754}
   - component: {fileID: 287933753}
   - component: {fileID: 287933755}
+  - component: {fileID: 287933756}
+  - component: {fileID: 287933757}
   m_Layer: 5
   m_Name: point26
   m_TagString: Untagged
@@ -2462,6 +2805,35 @@ MonoBehaviour:
   pointTerrain: 2
   pointTemperature: 0
   pointBuildingList: 010000000100000001000000
+--- !u!114 &287933756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287933751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &287933757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287933751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &314941452
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,6 +2846,8 @@ GameObject:
   - component: {fileID: 314941455}
   - component: {fileID: 314941454}
   - component: {fileID: 314941456}
+  - component: {fileID: 314941457}
+  - component: {fileID: 314941458}
   m_Layer: 5
   m_Name: point54
   m_TagString: Untagged
@@ -2555,6 +2929,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 0000000001000000
+--- !u!114 &314941457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314941452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &314941458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314941452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &319282495
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,6 +2970,8 @@ GameObject:
   - component: {fileID: 319282498}
   - component: {fileID: 319282497}
   - component: {fileID: 319282499}
+  - component: {fileID: 319282500}
+  - component: {fileID: 319282501}
   m_Layer: 5
   m_Name: point3
   m_TagString: Untagged
@@ -2648,6 +3053,47 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 2
   pointBuildingList: 0000000003000000
+--- !u!114 &319282500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319282495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &319282501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319282495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 319282500}
+          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
+          m_MethodName: Onclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &328966393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,6 +3323,8 @@ GameObject:
   - component: {fileID: 424801105}
   - component: {fileID: 424801104}
   - component: {fileID: 424801106}
+  - component: {fileID: 424801107}
+  - component: {fileID: 424801108}
   m_Layer: 5
   m_Name: point17
   m_TagString: Untagged
@@ -2958,6 +3406,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 0000000003000000
+--- !u!114 &424801107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424801102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &424801108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424801102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &425190180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2970,6 +3447,8 @@ GameObject:
   - component: {fileID: 425190183}
   - component: {fileID: 425190182}
   - component: {fileID: 425190184}
+  - component: {fileID: 425190185}
+  - component: {fileID: 425190186}
   m_Layer: 5
   m_Name: point50
   m_TagString: Untagged
@@ -3051,6 +3530,114 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &425190185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425190180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &425190186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425190180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!1 &429226061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 429226062}
+  - component: {fileID: 429226064}
+  - component: {fileID: 429226063}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &429226062
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429226061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 993531502}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.8242307}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.00024414062, y: -0.022277832}
+  m_SizeDelta: {x: -0.00054932, y: 0.0446}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &429226063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429226061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.69411767}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: fc46009413ee94e818b2ec2eafa4e88c, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u59CB\u3081\u305F\u3044\u5834\u6240\u3092\u9078\u629E\u3057\u3066\u4E0B\u3055\u3044\u3002"
+--- !u!222 &429226064
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429226061}
+  m_CullTransparentMesh: 1
 --- !u!1 &463437888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,6 +3786,8 @@ GameObject:
   - component: {fileID: 479730236}
   - component: {fileID: 479730235}
   - component: {fileID: 479730237}
+  - component: {fileID: 479730238}
+  - component: {fileID: 479730239}
   m_Layer: 5
   m_Name: point2
   m_TagString: Untagged
@@ -3280,6 +3869,47 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 2
   pointBuildingList: 000000000300000003000000
+--- !u!114 &479730238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479730233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &479730239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479730233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 479730238}
+          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
+          m_MethodName: Onclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &507116516
 GameObject:
   m_ObjectHideFlags: 0
@@ -3292,6 +3922,8 @@ GameObject:
   - component: {fileID: 507116519}
   - component: {fileID: 507116518}
   - component: {fileID: 507116520}
+  - component: {fileID: 507116521}
+  - component: {fileID: 507116522}
   m_Layer: 5
   m_Name: point58
   m_TagString: Untagged
@@ -3373,6 +4005,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 000000000000000003000000
+--- !u!114 &507116521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507116516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &507116522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507116516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &567925159
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,6 +4046,8 @@ GameObject:
   - component: {fileID: 567925162}
   - component: {fileID: 567925161}
   - component: {fileID: 567925163}
+  - component: {fileID: 567925164}
+  - component: {fileID: 567925165}
   m_Layer: 5
   m_Name: point48
   m_TagString: Untagged
@@ -3466,6 +4129,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 0
   pointBuildingList: 00000000000000000000000000000000
+--- !u!114 &567925164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &567925165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &578397013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3478,6 +4170,8 @@ GameObject:
   - component: {fileID: 578397016}
   - component: {fileID: 578397015}
   - component: {fileID: 578397017}
+  - component: {fileID: 578397018}
+  - component: {fileID: 578397019}
   m_Layer: 5
   m_Name: point28
   m_TagString: Untagged
@@ -3559,6 +4253,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 0300000003000000
+--- !u!114 &578397018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578397013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &578397019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578397013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &586488031
 GameObject:
   m_ObjectHideFlags: 0
@@ -3649,6 +4372,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586488031}
   m_CullTransparentMesh: 1
+--- !u!1 &598759910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598759911}
+  - component: {fileID: 598759912}
+  m_Layer: 0
+  m_Name: NoBrokenGameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598759911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598759910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 591, y: 332.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &598759912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598759910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a65971ec2c1f428eb4fbabb596d15f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointName: 
+  PointNameText: {fileID: 0}
+  PointTerrainText: {fileID: 0}
+  PointTemperatureText: {fileID: 0}
+  PointIncomeText: {fileID: 0}
+  BuildingSprites:
+  - {fileID: 21300000, guid: 56cb9cd3a3da3481485cb851ecc9e55f, type: 3}
+  - {fileID: 21300000, guid: 8a6a415b5ec054177b3652711fde4448, type: 3}
+  - {fileID: 21300000, guid: 54db53f818b8a48b8aaffd916b9675a1, type: 3}
+  - {fileID: 21300000, guid: 0dd526162fff74d15bc3d41f0707b61b, type: 3}
 --- !u!1 &599051411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,6 +4437,8 @@ GameObject:
   - component: {fileID: 599051414}
   - component: {fileID: 599051413}
   - component: {fileID: 599051415}
+  - component: {fileID: 599051416}
+  - component: {fileID: 599051417}
   m_Layer: 5
   m_Name: point9
   m_TagString: Untagged
@@ -3742,6 +4520,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 1
   pointBuildingList: 0000000000000000
+--- !u!114 &599051416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599051411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &599051417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599051411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &600073607
 GameObject:
   m_ObjectHideFlags: 0
@@ -3880,6 +4687,8 @@ GameObject:
   - component: {fileID: 601622556}
   - component: {fileID: 601622555}
   - component: {fileID: 601622557}
+  - component: {fileID: 601622558}
+  - component: {fileID: 601622559}
   m_Layer: 5
   m_Name: point37
   m_TagString: Untagged
@@ -3961,6 +4770,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 000000000100000003000000
+--- !u!114 &601622558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601622553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &601622559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601622553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &609412458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3973,6 +4811,8 @@ GameObject:
   - component: {fileID: 609412461}
   - component: {fileID: 609412460}
   - component: {fileID: 609412462}
+  - component: {fileID: 609412463}
+  - component: {fileID: 609412464}
   m_Layer: 5
   m_Name: point63
   m_TagString: Untagged
@@ -4054,6 +4894,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 0000000003000000
+--- !u!114 &609412463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609412458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &609412464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609412458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &610366482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4277,6 +5146,8 @@ GameObject:
   - component: {fileID: 678263369}
   - component: {fileID: 678263368}
   - component: {fileID: 678263370}
+  - component: {fileID: 678263371}
+  - component: {fileID: 678263372}
   m_Layer: 5
   m_Name: point41
   m_TagString: Untagged
@@ -4358,6 +5229,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 1
   pointBuildingList: 00000000
+--- !u!114 &678263371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678263366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &678263372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678263366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &688732614
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,6 +5270,8 @@ GameObject:
   - component: {fileID: 688732617}
   - component: {fileID: 688732616}
   - component: {fileID: 688732618}
+  - component: {fileID: 688732619}
+  - component: {fileID: 688732620}
   m_Layer: 5
   m_Name: point4
   m_TagString: Untagged
@@ -4451,6 +5353,47 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 0300000003000000
+--- !u!114 &688732619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688732614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &688732620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688732614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 688732619}
+          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
+          m_MethodName: Onclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &691606506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4463,6 +5406,8 @@ GameObject:
   - component: {fileID: 691606509}
   - component: {fileID: 691606508}
   - component: {fileID: 691606510}
+  - component: {fileID: 691606511}
+  - component: {fileID: 691606512}
   m_Layer: 5
   m_Name: point13
   m_TagString: Untagged
@@ -4544,6 +5489,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &691606511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691606506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &691606512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691606506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &693583644
 GameObject:
   m_ObjectHideFlags: 0
@@ -4580,6 +5554,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &705958564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705958565}
+  - component: {fileID: 705958567}
+  - component: {fileID: 705958566}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &705958565
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705958564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1206626202}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0039597, y: 0.0020447}
+  m_SizeDelta: {x: 2652, y: 1509.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &705958566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705958564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e2de88a938a504879be8bb2925dd7dff, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &705958567
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705958564}
+  m_CullTransparentMesh: 1
 --- !u!1 &745748362
 GameObject:
   m_ObjectHideFlags: 0
@@ -4592,6 +5641,8 @@ GameObject:
   - component: {fileID: 745748365}
   - component: {fileID: 745748364}
   - component: {fileID: 745748366}
+  - component: {fileID: 745748367}
+  - component: {fileID: 745748368}
   m_Layer: 5
   m_Name: point49
   m_TagString: Untagged
@@ -4673,6 +5724,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 0
   pointBuildingList: 000000000000000000000000
+--- !u!114 &745748367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745748362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &745748368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745748362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &795157924
 GameObject:
   m_ObjectHideFlags: 0
@@ -4707,7 +5787,7 @@ RectTransform:
   - {fileID: 887847137}
   - {fileID: 1628785446}
   m_Father: {fileID: 993531502}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4764,6 +5844,8 @@ GameObject:
   - component: {fileID: 801382013}
   - component: {fileID: 801382012}
   - component: {fileID: 801382014}
+  - component: {fileID: 801382015}
+  - component: {fileID: 801382016}
   m_Layer: 5
   m_Name: point8
   m_TagString: Untagged
@@ -4845,6 +5927,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 1
   pointBuildingList: 000000000000000003000000
+--- !u!114 &801382015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801382010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &801382016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801382010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &825513654
 GameObject:
   m_ObjectHideFlags: 0
@@ -4932,6 +6043,8 @@ GameObject:
   - component: {fileID: 865834269}
   - component: {fileID: 865834268}
   - component: {fileID: 865834270}
+  - component: {fileID: 865834271}
+  - component: {fileID: 865834272}
   m_Layer: 5
   m_Name: point12
   m_TagString: Untagged
@@ -5013,6 +6126,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 03000000
+--- !u!114 &865834271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865834266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &865834272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865834266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &875949699
 GameObject:
   m_ObjectHideFlags: 0
@@ -5025,6 +6167,8 @@ GameObject:
   - component: {fileID: 875949702}
   - component: {fileID: 875949701}
   - component: {fileID: 875949703}
+  - component: {fileID: 875949704}
+  - component: {fileID: 875949705}
   m_Layer: 5
   m_Name: point0
   m_TagString: Untagged
@@ -5106,6 +6250,47 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 3
   pointBuildingList: 00000000000000000000000003000000
+--- !u!114 &875949704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875949699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &875949705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875949699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 875949704}
+          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
+          m_MethodName: Onclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &887847136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5921,6 +7106,8 @@ GameObject:
   - component: {fileID: 971595753}
   - component: {fileID: 971595752}
   - component: {fileID: 971595754}
+  - component: {fileID: 971595755}
+  - component: {fileID: 971595756}
   m_Layer: 5
   m_Name: point40
   m_TagString: Untagged
@@ -6002,6 +7189,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 1
   pointBuildingList: 080000000800000008000000080000000c0000000c000000
+--- !u!114 &971595755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971595750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &971595756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971595750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &983214869
 GameObject:
   m_ObjectHideFlags: 0
@@ -6220,12 +7436,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1252318}
-  - {fileID: 1235515380}
   - {fileID: 60309741}
   - {fileID: 42134839}
   - {fileID: 1446815379}
   - {fileID: 795157925}
   - {fileID: 1990994964}
+  - {fileID: 429226062}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6246,6 +7462,8 @@ GameObject:
   - component: {fileID: 1007516749}
   - component: {fileID: 1007516748}
   - component: {fileID: 1007516750}
+  - component: {fileID: 1007516751}
+  - component: {fileID: 1007516752}
   m_Layer: 5
   m_Name: point44
   m_TagString: Untagged
@@ -6327,6 +7545,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &1007516751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007516746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1007516752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007516746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1009697201
 GameObject:
   m_ObjectHideFlags: 0
@@ -6453,6 +7700,8 @@ GameObject:
   - component: {fileID: 1077084262}
   - component: {fileID: 1077084261}
   - component: {fileID: 1077084263}
+  - component: {fileID: 1077084264}
+  - component: {fileID: 1077084265}
   m_Layer: 5
   m_Name: point62
   m_TagString: Untagged
@@ -6534,6 +7783,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 0000000003000000
+--- !u!114 &1077084264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077084259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1077084265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077084259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1093200105
 GameObject:
   m_ObjectHideFlags: 0
@@ -6546,6 +7824,8 @@ GameObject:
   - component: {fileID: 1093200108}
   - component: {fileID: 1093200107}
   - component: {fileID: 1093200109}
+  - component: {fileID: 1093200110}
+  - component: {fileID: 1093200111}
   m_Layer: 5
   m_Name: point69
   m_TagString: Untagged
@@ -6627,6 +7907,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 0300000003000000
+--- !u!114 &1093200110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093200105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1093200111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093200105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1103524102
 GameObject:
   m_ObjectHideFlags: 0
@@ -6639,6 +7948,8 @@ GameObject:
   - component: {fileID: 1103524105}
   - component: {fileID: 1103524104}
   - component: {fileID: 1103524106}
+  - component: {fileID: 1103524107}
+  - component: {fileID: 1103524108}
   m_Layer: 5
   m_Name: point34
   m_TagString: Untagged
@@ -6720,6 +8031,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 010000000100000003000000
+--- !u!114 &1103524107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103524102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1103524108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103524102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1108138656
 GameObject:
   m_ObjectHideFlags: 0
@@ -7008,6 +8348,8 @@ GameObject:
   - component: {fileID: 1156631859}
   - component: {fileID: 1156631858}
   - component: {fileID: 1156631860}
+  - component: {fileID: 1156631861}
+  - component: {fileID: 1156631862}
   m_Layer: 5
   m_Name: point24
   m_TagString: Untagged
@@ -7089,6 +8431,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 0
   pointBuildingList: 0a0000000a000000090000000900000009000000
+--- !u!114 &1156631861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156631856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1156631862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156631856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1157388243
 GameObject:
   m_ObjectHideFlags: 0
@@ -7101,6 +8472,8 @@ GameObject:
   - component: {fileID: 1157388246}
   - component: {fileID: 1157388245}
   - component: {fileID: 1157388247}
+  - component: {fileID: 1157388248}
+  - component: {fileID: 1157388249}
   m_Layer: 5
   m_Name: point18
   m_TagString: Untagged
@@ -7182,6 +8555,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 0
   pointBuildingList: 00000000070000000700000009000000090000000b000000
+--- !u!114 &1157388248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157388243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1157388249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157388243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1162018910
 GameObject:
   m_ObjectHideFlags: 0
@@ -7269,6 +8671,8 @@ GameObject:
   - component: {fileID: 1193491485}
   - component: {fileID: 1193491484}
   - component: {fileID: 1193491486}
+  - component: {fileID: 1193491487}
+  - component: {fileID: 1193491488}
   m_Layer: 5
   m_Name: point56
   m_TagString: Untagged
@@ -7350,6 +8754,135 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 000000000000000003000000
+--- !u!114 &1193491487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193491482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1193491488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193491482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!1 &1206626198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206626202}
+  - component: {fileID: 1206626201}
+  - component: {fileID: 1206626200}
+  - component: {fileID: 1206626199}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1206626199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206626198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1206626200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206626198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1206626201
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206626198}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1206626202
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206626198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 500}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 705958565}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -38, y: -7}
+  m_SizeDelta: {x: 2652.0156, y: 1509.342}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1211109054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7488,6 +9021,8 @@ GameObject:
   - component: {fileID: 1221345332}
   - component: {fileID: 1221345331}
   - component: {fileID: 1221345333}
+  - component: {fileID: 1221345334}
+  - component: {fileID: 1221345335}
   m_Layer: 5
   m_Name: point25
   m_TagString: Untagged
@@ -7569,6 +9104,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 0
   pointBuildingList: 01000000070000000700000007000000
+--- !u!114 &1221345334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221345329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1221345335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221345329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1221425535
 GameObject:
   m_ObjectHideFlags: 0
@@ -7581,6 +9145,8 @@ GameObject:
   - component: {fileID: 1221425538}
   - component: {fileID: 1221425537}
   - component: {fileID: 1221425539}
+  - component: {fileID: 1221425540}
+  - component: {fileID: 1221425541}
   m_Layer: 5
   m_Name: point6
   m_TagString: Untagged
@@ -7662,6 +9228,47 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 0300000003000000
+--- !u!114 &1221425540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221425535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1221425541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221425535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1221425540}
+          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
+          m_MethodName: Onclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1227601284
 GameObject:
   m_ObjectHideFlags: 0
@@ -7674,6 +9281,8 @@ GameObject:
   - component: {fileID: 1227601287}
   - component: {fileID: 1227601286}
   - component: {fileID: 1227601288}
+  - component: {fileID: 1227601289}
+  - component: {fileID: 1227601290}
   m_Layer: 5
   m_Name: point35
   m_TagString: Untagged
@@ -7755,6 +9364,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 000000000100000003000000
+--- !u!114 &1227601289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227601284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1227601290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227601284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1234110244
 GameObject:
   m_ObjectHideFlags: 0
@@ -7767,6 +9405,8 @@ GameObject:
   - component: {fileID: 1234110247}
   - component: {fileID: 1234110246}
   - component: {fileID: 1234110248}
+  - component: {fileID: 1234110249}
+  - component: {fileID: 1234110250}
   m_Layer: 5
   m_Name: point52
   m_TagString: Untagged
@@ -7848,6 +9488,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &1234110249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234110244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1234110250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234110244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1234767783
 GameObject:
   m_ObjectHideFlags: 0
@@ -7914,86 +9583,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1235515379
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1235515380}
-  - component: {fileID: 1235515382}
-  - component: {fileID: 1235515381}
-  m_Layer: 5
-  m_Name: statuspanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1235515380
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235515379}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1622753846}
-  - {fileID: 1758619851}
-  - {fileID: 1551797076}
-  - {fileID: 2045941483}
-  - {fileID: 2021960315}
-  m_Father: {fileID: 993531502}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 210}
-  m_SizeDelta: {x: 0, y: -420}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1235515381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235515379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1235515382
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235515379}
-  m_CullTransparentMesh: 1
 --- !u!1 &1237937348
 GameObject:
   m_ObjectHideFlags: 0
@@ -8081,6 +9670,8 @@ GameObject:
   - component: {fileID: 1240025796}
   - component: {fileID: 1240025795}
   - component: {fileID: 1240025797}
+  - component: {fileID: 1240025798}
+  - component: {fileID: 1240025799}
   m_Layer: 5
   m_Name: point66
   m_TagString: Untagged
@@ -8162,6 +9753,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 1
   pointBuildingList: 000000000000000000000000
+--- !u!114 &1240025798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240025793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1240025799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240025793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1286664235
 GameObject:
   m_ObjectHideFlags: 0
@@ -8332,6 +9952,8 @@ GameObject:
   - component: {fileID: 1354035825}
   - component: {fileID: 1354035824}
   - component: {fileID: 1354035826}
+  - component: {fileID: 1354035827}
+  - component: {fileID: 1354035828}
   m_Layer: 5
   m_Name: point67
   m_TagString: Untagged
@@ -8413,6 +10035,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 000000000000000003000000
+--- !u!114 &1354035827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354035822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1354035828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354035822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1375094700
 GameObject:
   m_ObjectHideFlags: 0
@@ -8608,6 +10259,8 @@ GameObject:
   - component: {fileID: 1410281864}
   - component: {fileID: 1410281863}
   - component: {fileID: 1410281865}
+  - component: {fileID: 1410281866}
+  - component: {fileID: 1410281867}
   m_Layer: 5
   m_Name: point29
   m_TagString: Untagged
@@ -8689,6 +10342,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 0
   pointBuildingList: 0100000003000000
+--- !u!114 &1410281866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410281861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1410281867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410281861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1428114777
 GameObject:
   m_ObjectHideFlags: 0
@@ -8701,6 +10383,8 @@ GameObject:
   - component: {fileID: 1428114780}
   - component: {fileID: 1428114779}
   - component: {fileID: 1428114781}
+  - component: {fileID: 1428114782}
+  - component: {fileID: 1428114783}
   m_Layer: 5
   m_Name: point14
   m_TagString: Untagged
@@ -8782,6 +10466,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 0
   pointBuildingList: 0000000000000000
+--- !u!114 &1428114782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428114777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1428114783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428114777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1436976549
 GameObject:
   m_ObjectHideFlags: 0
@@ -8915,6 +10628,8 @@ GameObject:
   - component: {fileID: 1445530900}
   - component: {fileID: 1445530899}
   - component: {fileID: 1445530901}
+  - component: {fileID: 1445530902}
+  - component: {fileID: 1445530903}
   m_Layer: 5
   m_Name: point64
   m_TagString: Untagged
@@ -8996,6 +10711,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 1
   pointBuildingList: 030000000300000003000000
+--- !u!114 &1445530902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445530897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1445530903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445530897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1446815378
 GameObject:
   m_ObjectHideFlags: 0
@@ -9032,7 +10776,7 @@ RectTransform:
   - {fileID: 1952680355}
   - {fileID: 1544322679}
   m_Father: {fileID: 993531502}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9089,6 +10833,8 @@ GameObject:
   - component: {fileID: 1451368447}
   - component: {fileID: 1451368446}
   - component: {fileID: 1451368448}
+  - component: {fileID: 1451368449}
+  - component: {fileID: 1451368450}
   m_Layer: 5
   m_Name: point16
   m_TagString: Untagged
@@ -9170,6 +10916,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 2
   pointBuildingList: 03000000
+--- !u!114 &1451368449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451368444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1451368450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451368444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1464756692
 GameObject:
   m_ObjectHideFlags: 0
@@ -9257,6 +11032,8 @@ GameObject:
   - component: {fileID: 1466022613}
   - component: {fileID: 1466022612}
   - component: {fileID: 1466022614}
+  - component: {fileID: 1466022615}
+  - component: {fileID: 1466022616}
   m_Layer: 5
   m_Name: point15
   m_TagString: Untagged
@@ -9338,6 +11115,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 0300000000000000
+--- !u!114 &1466022615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466022610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1466022616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466022610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1510644689
 GameObject:
   m_ObjectHideFlags: 0
@@ -9734,85 +11540,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544322678}
   m_CullTransparentMesh: 1
---- !u!1 &1551797075
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1551797076}
-  - component: {fileID: 1551797078}
-  - component: {fileID: 1551797077}
-  m_Layer: 5
-  m_Name: KingName (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1551797076
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551797075}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1235515380}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: 0.050302}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1551797077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551797075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 81299fe9df6bd4c3395b186ae8ef9ebb, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: " \u53CE\u5165:"
---- !u!222 &1551797078
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551797075}
-  m_CullTransparentMesh: 1
 --- !u!1 &1565309052
 GameObject:
   m_ObjectHideFlags: 0
@@ -9900,6 +11627,8 @@ GameObject:
   - component: {fileID: 1605155755}
   - component: {fileID: 1605155754}
   - component: {fileID: 1605155756}
+  - component: {fileID: 1605155757}
+  - component: {fileID: 1605155758}
   m_Layer: 5
   m_Name: point23
   m_TagString: Untagged
@@ -9981,85 +11710,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 0
   pointBuildingList: 0a0000000a0000000a00000008000000
---- !u!1 &1622753845
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1622753846}
-  - component: {fileID: 1622753848}
-  - component: {fileID: 1622753847}
-  m_Layer: 5
-  m_Name: KingName
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1622753846
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622753845}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1235515380}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1622753847
+--- !u!114 &1605155757
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622753845}
+  m_GameObject: {fileID: 1605155752}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 81299fe9df6bd4c3395b186ae8ef9ebb, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\u52E2\u529B\u540D"
---- !u!222 &1622753848
-CanvasRenderer:
+--- !u!114 &1605155758
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622753845}
-  m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 1605155752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1628785445
 GameObject:
   m_ObjectHideFlags: 0
@@ -10193,6 +11872,8 @@ GameObject:
   - component: {fileID: 1635202889}
   - component: {fileID: 1635202888}
   - component: {fileID: 1635202890}
+  - component: {fileID: 1635202891}
+  - component: {fileID: 1635202892}
   m_Layer: 5
   m_Name: point5
   m_TagString: Untagged
@@ -10274,6 +11955,47 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 1
   pointBuildingList: 000000000000000003000000
+--- !u!114 &1635202891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635202886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1635202892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635202886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1635202891}
+          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
+          m_MethodName: Onclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1635459875
 GameObject:
   m_ObjectHideFlags: 0
@@ -10286,6 +12008,8 @@ GameObject:
   - component: {fileID: 1635459878}
   - component: {fileID: 1635459877}
   - component: {fileID: 1635459879}
+  - component: {fileID: 1635459880}
+  - component: {fileID: 1635459881}
   m_Layer: 5
   m_Name: point42
   m_TagString: Untagged
@@ -10367,6 +12091,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &1635459880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635459875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1635459881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635459875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1644101217
 GameObject:
   m_ObjectHideFlags: 0
@@ -10379,6 +12132,8 @@ GameObject:
   - component: {fileID: 1644101220}
   - component: {fileID: 1644101219}
   - component: {fileID: 1644101221}
+  - component: {fileID: 1644101222}
+  - component: {fileID: 1644101223}
   m_Layer: 5
   m_Name: point31
   m_TagString: Untagged
@@ -10460,6 +12215,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 0100000003000000
+--- !u!114 &1644101222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644101217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1644101223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644101217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1657361459
 GameObject:
   m_ObjectHideFlags: 0
@@ -10472,6 +12256,8 @@ GameObject:
   - component: {fileID: 1657361462}
   - component: {fileID: 1657361461}
   - component: {fileID: 1657361463}
+  - component: {fileID: 1657361464}
+  - component: {fileID: 1657361465}
   m_Layer: 5
   m_Name: point60
   m_TagString: Untagged
@@ -10553,6 +12339,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 1
   pointBuildingList: 0000000000000000
+--- !u!114 &1657361464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657361459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1657361465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657361459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1684279391
 GameObject:
   m_ObjectHideFlags: 0
@@ -10723,6 +12538,8 @@ GameObject:
   - component: {fileID: 1697430372}
   - component: {fileID: 1697430371}
   - component: {fileID: 1697430373}
+  - component: {fileID: 1697430374}
+  - component: {fileID: 1697430375}
   m_Layer: 5
   m_Name: point7
   m_TagString: Untagged
@@ -10804,6 +12621,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 0
   pointBuildingList: 000000000000000003000000
+--- !u!114 &1697430374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697430369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1697430375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697430369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1700194022
 GameObject:
   m_ObjectHideFlags: 0
@@ -10816,6 +12662,8 @@ GameObject:
   - component: {fileID: 1700194025}
   - component: {fileID: 1700194024}
   - component: {fileID: 1700194026}
+  - component: {fileID: 1700194027}
+  - component: {fileID: 1700194028}
   m_Layer: 5
   m_Name: point20
   m_TagString: Untagged
@@ -10897,6 +12745,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 0000000003000000
+--- !u!114 &1700194027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700194022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1700194028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700194022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1728137229
 GameObject:
   m_ObjectHideFlags: 0
@@ -11004,85 +12881,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728137229}
-  m_CullTransparentMesh: 1
---- !u!1 &1758619850
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1758619851}
-  - component: {fileID: 1758619853}
-  - component: {fileID: 1758619852}
-  m_Layer: 5
-  m_Name: KingName (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1758619851
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758619850}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1235515380}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -160, y: -0.050302}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1758619852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758619850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 81299fe9df6bd4c3395b186ae8ef9ebb, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\u52E2\u529B\u5024:"
---- !u!222 &1758619853
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758619850}
   m_CullTransparentMesh: 1
 --- !u!1 &1758975365
 GameObject:
@@ -11229,8 +13027,8 @@ Camera:
   m_GameObject: {fileID: 1760795097}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.6320754, g: 0.3442599, b: 0.07453719, a: 0}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.7169812, g: 0.34839225, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -11522,6 +13320,8 @@ GameObject:
   - component: {fileID: 1784829625}
   - component: {fileID: 1784829624}
   - component: {fileID: 1784829626}
+  - component: {fileID: 1784829627}
+  - component: {fileID: 1784829628}
   m_Layer: 5
   m_Name: point1
   m_TagString: Untagged
@@ -11603,6 +13403,47 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 2
   pointBuildingList: 0000000003000000
+--- !u!114 &1784829627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784829622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1784829628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784829622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1784829627}
+          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
+          m_MethodName: Onclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1789568559
 GameObject:
   m_ObjectHideFlags: 0
@@ -11741,6 +13582,8 @@ GameObject:
   - component: {fileID: 1793052820}
   - component: {fileID: 1793052819}
   - component: {fileID: 1793052821}
+  - component: {fileID: 1793052822}
+  - component: {fileID: 1793052823}
   m_Layer: 5
   m_Name: point57
   m_TagString: Untagged
@@ -11822,6 +13665,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 1
   pointBuildingList: 0000000000000000
+--- !u!114 &1793052822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793052817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1793052823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793052817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1798594441
 GameObject:
   m_ObjectHideFlags: 0
@@ -11834,6 +13706,8 @@ GameObject:
   - component: {fileID: 1798594444}
   - component: {fileID: 1798594443}
   - component: {fileID: 1798594445}
+  - component: {fileID: 1798594446}
+  - component: {fileID: 1798594447}
   m_Layer: 5
   m_Name: point22
   m_TagString: Untagged
@@ -11915,6 +13789,35 @@ MonoBehaviour:
   pointTerrain: 4
   pointTemperature: 0
   pointBuildingList: 07000000070000000b0000000b0000000b000000
+--- !u!114 &1798594446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798594441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1798594447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798594441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1807081815
 GameObject:
   m_ObjectHideFlags: 0
@@ -11927,6 +13830,8 @@ GameObject:
   - component: {fileID: 1807081818}
   - component: {fileID: 1807081817}
   - component: {fileID: 1807081819}
+  - component: {fileID: 1807081820}
+  - component: {fileID: 1807081821}
   m_Layer: 5
   m_Name: point27
   m_TagString: Untagged
@@ -12008,6 +13913,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 0300000003000000
+--- !u!114 &1807081820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807081815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1807081821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807081815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1810711267
 GameObject:
   m_ObjectHideFlags: 0
@@ -12056,6 +13990,8 @@ GameObject:
   - component: {fileID: 1812581964}
   - component: {fileID: 1812581963}
   - component: {fileID: 1812581965}
+  - component: {fileID: 1812581966}
+  - component: {fileID: 1812581967}
   m_Layer: 5
   m_Name: point46
   m_TagString: Untagged
@@ -12137,6 +14073,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &1812581966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812581961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1812581967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812581961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1830669312
 GameObject:
   m_ObjectHideFlags: 0
@@ -12149,6 +14114,8 @@ GameObject:
   - component: {fileID: 1830669315}
   - component: {fileID: 1830669314}
   - component: {fileID: 1830669316}
+  - component: {fileID: 1830669317}
+  - component: {fileID: 1830669318}
   m_Layer: 5
   m_Name: point32
   m_TagString: Untagged
@@ -12230,6 +14197,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 010000000100000003000000
+--- !u!114 &1830669317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830669312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1830669318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830669312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1836828954
 GameObject:
   m_ObjectHideFlags: 0
@@ -12242,6 +14238,8 @@ GameObject:
   - component: {fileID: 1836828957}
   - component: {fileID: 1836828956}
   - component: {fileID: 1836828958}
+  - component: {fileID: 1836828959}
+  - component: {fileID: 1836828960}
   m_Layer: 5
   m_Name: point39
   m_TagString: Untagged
@@ -12323,6 +14321,35 @@ MonoBehaviour:
   pointTerrain: 6
   pointTemperature: 1
   pointBuildingList: 0c0000000c0000000c00000001000000
+--- !u!114 &1836828959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836828954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1836828960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836828954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1867983314
 GameObject:
   m_ObjectHideFlags: 0
@@ -12487,7 +14514,7 @@ GameObject:
   - component: {fileID: 1922470097}
   - component: {fileID: 1922470096}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GameObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12603,6 +14630,8 @@ GameObject:
   - component: {fileID: 1941254499}
   - component: {fileID: 1941254498}
   - component: {fileID: 1941254500}
+  - component: {fileID: 1941254501}
+  - component: {fileID: 1941254502}
   m_Layer: 5
   m_Name: point30
   m_TagString: Untagged
@@ -12684,6 +14713,35 @@ MonoBehaviour:
   pointTerrain: 2
   pointTemperature: 0
   pointBuildingList: 010000000100000001000000
+--- !u!114 &1941254501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941254496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1941254502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941254496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1952680354
 GameObject:
   m_ObjectHideFlags: 0
@@ -12817,6 +14875,8 @@ GameObject:
   - component: {fileID: 1981432295}
   - component: {fileID: 1981432294}
   - component: {fileID: 1981432296}
+  - component: {fileID: 1981432297}
+  - component: {fileID: 1981432298}
   m_Layer: 5
   m_Name: point51
   m_TagString: Untagged
@@ -12898,6 +14958,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 0000000001000000
+--- !u!114 &1981432297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981432292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1981432298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981432292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1990994963
 GameObject:
   m_ObjectHideFlags: 0
@@ -12931,7 +15020,7 @@ RectTransform:
   - {fileID: 901802515}
   - {fileID: 2147049237}
   m_Father: {fileID: 993531502}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13142,6 +15231,8 @@ GameObject:
   - component: {fileID: 2018259530}
   - component: {fileID: 2018259529}
   - component: {fileID: 2018259531}
+  - component: {fileID: 2018259532}
+  - component: {fileID: 2018259533}
   m_Layer: 5
   m_Name: point33
   m_TagString: Untagged
@@ -13223,85 +15314,35 @@ MonoBehaviour:
   pointTerrain: 2
   pointTemperature: 0
   pointBuildingList: 01000000010000000100000001000000
---- !u!1 &2021960314
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2021960315}
-  - component: {fileID: 2021960317}
-  - component: {fileID: 2021960316}
-  m_Layer: 5
-  m_Name: KingName (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2021960315
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021960314}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1235515380}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: -0.050302}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2021960316
+--- !u!114 &2018259532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021960314}
+  m_GameObject: {fileID: 2018259527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 81299fe9df6bd4c3395b186ae8ef9ebb, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\u8CC7\u6E90"
---- !u!222 &2021960317
-CanvasRenderer:
+--- !u!114 &2018259533
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021960314}
-  m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 2018259527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2040229070
 GameObject:
   m_ObjectHideFlags: 0
@@ -13314,6 +15355,8 @@ GameObject:
   - component: {fileID: 2040229073}
   - component: {fileID: 2040229072}
   - component: {fileID: 2040229074}
+  - component: {fileID: 2040229075}
+  - component: {fileID: 2040229076}
   m_Layer: 5
   m_Name: point21
   m_TagString: Untagged
@@ -13395,85 +15438,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 0000000003000000
---- !u!1 &2045941482
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2045941483}
-  - component: {fileID: 2045941485}
-  - component: {fileID: 2045941484}
-  m_Layer: 5
-  m_Name: KingName (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2045941483
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045941482}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1235515380}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 160, y: -0.050302}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2045941484
+--- !u!114 &2040229075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045941482}
+  m_GameObject: {fileID: 2040229070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 81299fe9df6bd4c3395b186ae8ef9ebb, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\u304A\u91D1:"
---- !u!222 &2045941485
-CanvasRenderer:
+--- !u!114 &2040229076
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045941482}
-  m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 2040229070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2061838689
 GameObject:
   m_ObjectHideFlags: 0
@@ -13486,6 +15479,8 @@ GameObject:
   - component: {fileID: 2061838692}
   - component: {fileID: 2061838691}
   - component: {fileID: 2061838693}
+  - component: {fileID: 2061838694}
+  - component: {fileID: 2061838695}
   m_Layer: 5
   m_Name: point55
   m_TagString: Untagged
@@ -13567,6 +15562,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &2061838694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061838689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2061838695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061838689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2077774635
 GameObject:
   m_ObjectHideFlags: 0
@@ -13658,6 +15682,8 @@ GameObject:
   - component: {fileID: 2077852484}
   - component: {fileID: 2077852483}
   - component: {fileID: 2077852485}
+  - component: {fileID: 2077852486}
+  - component: {fileID: 2077852487}
   m_Layer: 5
   m_Name: point36
   m_TagString: Untagged
@@ -13739,6 +15765,35 @@ MonoBehaviour:
   pointTerrain: 5
   pointTemperature: 0
   pointBuildingList: 00000000000000000100000003000000
+--- !u!114 &2077852486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077852481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2077852487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077852481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2088110503
 GameObject:
   m_ObjectHideFlags: 0
@@ -13952,6 +16007,8 @@ GameObject:
   - component: {fileID: 2112122003}
   - component: {fileID: 2112122002}
   - component: {fileID: 2112122004}
+  - component: {fileID: 2112122005}
+  - component: {fileID: 2112122006}
   m_Layer: 5
   m_Name: point10
   m_TagString: Untagged
@@ -14033,6 +16090,35 @@ MonoBehaviour:
   pointTerrain: 3
   pointTemperature: 1
   pointBuildingList: 0000000000000000
+--- !u!114 &2112122005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112122000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2112122006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112122000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2115434011
 GameObject:
   m_ObjectHideFlags: 0
@@ -14045,6 +16131,8 @@ GameObject:
   - component: {fileID: 2115434014}
   - component: {fileID: 2115434013}
   - component: {fileID: 2115434015}
+  - component: {fileID: 2115434016}
+  - component: {fileID: 2115434017}
   m_Layer: 5
   m_Name: point53
   m_TagString: Untagged
@@ -14126,6 +16214,35 @@ MonoBehaviour:
   pointTerrain: 0
   pointTemperature: 0
   pointBuildingList: 00000000
+--- !u!114 &2115434016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115434011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2115434017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115434011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2125124039
 GameObject:
   m_ObjectHideFlags: 0

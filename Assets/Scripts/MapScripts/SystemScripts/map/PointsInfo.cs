@@ -17,7 +17,7 @@ public class PointsInfo : MonoBehaviour
     public int PointIncome;
     public enum PointBuilding
     {
-        Ki,Sougen,Isikiriba,Kaigan,Minato,Bokujo,MenkaHatake,SekitanKouzan,KinKouzan,DouKouzan,SuzuKouzan,TetuKouzan,Areti,Koubo,Kajiba,GunjuKoujo,Koujo,Seitetujo,Seikoujo
+        Ki,Sougen,Ishikiriba,Kaigan,Minato,Bokujou,Hatake,SekitanKouzan,KinKouzan,DouKouzan,SuzuKouzan,TetsuKouzan,Areti,Koubou,Kajiba,GunjuKoujou,Koujou,Seitetsujo,Seikoujo
     }
 
     public string Name;
