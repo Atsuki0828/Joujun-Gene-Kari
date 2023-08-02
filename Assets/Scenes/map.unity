@@ -462,7 +462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 300, y: 0}
+  m_AnchoredPosition: {x: 288, y: -0.28186035}
   m_SizeDelta: {x: -600, y: -206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &17286210
@@ -1983,7 +1983,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1627486828}
   m_HandleRect: {fileID: 1627486827}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3688,7 +3688,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1076493634}
   m_HandleRect: {fileID: 1076493633}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4986,7 +4986,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1512159350}
   m_HandleRect: {fileID: 1512159349}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5644,8 +5644,8 @@ MonoBehaviour:
   m_StartAxis: 0
   m_CellSize: {x: 40, y: 40}
   m_Spacing: {x: 5, y: 5}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  m_Constraint: 1
+  m_ConstraintCount: 4
 --- !u!1 &913586196
 GameObject:
   m_ObjectHideFlags: 0
@@ -10575,8 +10575,8 @@ MonoBehaviour:
   m_StartAxis: 0
   m_CellSize: {x: 40, y: 40}
   m_Spacing: {x: 5, y: 5}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  m_Constraint: 1
+  m_ConstraintCount: 4
 --- !u!114 &1471622024
 MonoBehaviour:
   m_ObjectHideFlags: 0

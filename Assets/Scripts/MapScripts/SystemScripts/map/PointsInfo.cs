@@ -19,11 +19,15 @@ public class PointsInfo : MonoBehaviour
     {
         Ki,Sougen,Ishikiriba,Kaigan,Minato,Bokujou,Hatake,SekitanKouzan,KinKouzan,DouKouzan,SuzuKouzan,TetsuKouzan,Areti,Koubou,Kajiba,GunjuKoujou,Koujou,Seitetsujo,Seikoujo
     }
-
+    public enum PointUnit
+    {
+        Kenshi,Yarihei,Yumihei,Juhei
+    }
     public string Name;
     public PointTerrain pointTerrain;
     public PointTemperature pointTemperature;
     public PointBuilding[] pointBuildingList;
+    public PointUnit[] pointUnitList;
 
 
 
