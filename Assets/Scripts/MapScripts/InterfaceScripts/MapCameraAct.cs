@@ -13,7 +13,8 @@ public class MapCameraAct : MonoBehaviour
     private float fmoveY;
     private float bmoveY;
     private float sensitiveMove = 30.0f;
-    private float sensitiveZoom = 100.0f;
+    //private float sensitiveZoom = 100.0f;
+    private float FoVZoom = 1.0f;
 
     bool isClicked;
 
@@ -39,16 +40,30 @@ public class MapCameraAct : MonoBehaviour
 
         if (isClicked)
         {
+            //カメラズーム　ボツ
+
+            //if (Input.GetAxis("Mouse ScrollWheel") < 0)
+            //{
+            //    bmoveZ = Input.GetAxis("Mouse ScrollWheel") * sensitiveZoom;
+            //    fmoveZ = 0;
+            //}
+            //else
+            //{
+            //    bmoveZ = 0;
+            //    fmoveZ = Input.GetAxis("Mouse ScrollWheel") * sensitiveZoom;
+            //}
+
             if (Input.GetAxis("Mouse ScrollWheel") < 0)
             {
-                bmoveZ = Input.GetAxis("Mouse ScrollWheel") * sensitiveZoom;
+                bmoveZ = Input.GetAxis("Mouse ScrollWheel") * FoVZoom;
                 fmoveZ = 0;
             }
             else
             {
                 bmoveZ = 0;
-                fmoveZ = Input.GetAxis("Mouse ScrollWheel") * sensitiveZoom;
+                fmoveZ = Input.GetAxis("Mouse ScrollWheel") * FoVZoom;
             }
+            this.GetComponent<Camera>().fieldOfView = Input.GetAxis("Mouse ScrollWheel") * FoVZoom;
 
             if (Input.GetMouseButton(0))
             {
@@ -119,18 +134,18 @@ public class MapCameraAct : MonoBehaviour
             //a = cam.transform.position;
 
             //cam.transform.position = a;
-            if (cam.transform.position.z > 370)
+            if (GetComponent<Camera>().fieldOfView < 5)
             {
-                cam.transform.position += cam.transform.forward * bmoveZ;
+                this.GetComponent<Camera>().fieldOfView = bmoveZ;
             }
-            else if (cam.transform.position.z < 30)
+            else if (GetComponent<Camera>().fieldOfView > 60)
             {
-                cam.transform.position += cam.transform.forward * fmoveZ;
+                this.GetComponent<Camera>().fieldOfView = fmoveZ;
             }
             else
             {
-                cam.transform.position += cam.transform.forward * fmoveZ;
-                cam.transform.position += cam.transform.forward * bmoveZ;
+                this.GetComponent<Camera>().fieldOfView = bmoveZ;
+                this.GetComponent<Camera>().fieldOfView = fmoveZ;
 
             }
         }

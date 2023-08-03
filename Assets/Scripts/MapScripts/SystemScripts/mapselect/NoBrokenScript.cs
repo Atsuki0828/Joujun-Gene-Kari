@@ -43,11 +43,16 @@ public class NoBrokenScript : MonoBehaviour
     [SerializeField]
     GameObject Ucontent;
 
+
+
+
+    GameObject PlayerWindowAvarable;
+
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-
+        //PlayerWindowAvarable.SetActive(false);
 
     }
 
@@ -73,7 +78,7 @@ public class NoBrokenScript : MonoBehaviour
     }
     public void Pointsclick(BaseEventData data)
     {
-
+        PlayerWindowAvarable.SetActive(true); 
         foreach (Transform n in Bcontent.transform)
         {
             GameObject.Destroy(n.gameObject);
