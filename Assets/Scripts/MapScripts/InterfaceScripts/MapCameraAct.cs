@@ -26,6 +26,10 @@ public class MapCameraAct : MonoBehaviour
         cam = GetComponent<Camera>();
 
         isClicked = true;
+
+        this.GetComponent<Camera>().fieldOfView = 60f;
+
+
     }
 
     // Update is called once per frame
@@ -63,7 +67,6 @@ public class MapCameraAct : MonoBehaviour
                 bmoveZ = 0;
                 fmoveZ = Input.GetAxis("Mouse ScrollWheel") * FoVZoom;
             }
-            this.GetComponent<Camera>().fieldOfView = Input.GetAxis("Mouse ScrollWheel") * FoVZoom;
 
             if (Input.GetMouseButton(0))
             {
@@ -136,16 +139,16 @@ public class MapCameraAct : MonoBehaviour
             //cam.transform.position = a;
             if (GetComponent<Camera>().fieldOfView < 5)
             {
-                this.GetComponent<Camera>().fieldOfView = bmoveZ;
+                this.GetComponent<Camera>().fieldOfView -= bmoveZ;
             }
             else if (GetComponent<Camera>().fieldOfView > 60)
             {
-                this.GetComponent<Camera>().fieldOfView = fmoveZ;
+                this.GetComponent<Camera>().fieldOfView -= fmoveZ;
             }
             else
             {
-                this.GetComponent<Camera>().fieldOfView = bmoveZ;
-                this.GetComponent<Camera>().fieldOfView = fmoveZ;
+                this.GetComponent<Camera>().fieldOfView -= bmoveZ;
+                this.GetComponent<Camera>().fieldOfView -= fmoveZ;
 
             }
         }
