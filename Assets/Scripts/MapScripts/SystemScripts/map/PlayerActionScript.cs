@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInformationScript : MonoBehaviour
+public class PlayerActionScript : MonoBehaviour
 {
     public string Name;
     public int PowerValue;

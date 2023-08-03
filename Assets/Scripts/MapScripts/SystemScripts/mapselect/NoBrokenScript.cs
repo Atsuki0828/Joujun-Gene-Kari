@@ -8,6 +8,7 @@ using UniRx;
 
 public class NoBrokenScript : MonoBehaviour
 {
+    public static Object NoBrokenObjectInMapScene;
     [SerializeField]
     PointsInfo pointinfocs;
     [SerializeField]
@@ -64,6 +65,7 @@ public class NoBrokenScript : MonoBehaviour
             {
                 pointinfocs = firstgetobj.GetComponent<PointsInfo>();
             }
+            NoBrokenObjectInMapScene =  GameObject.Find("NoBrokenGameObject");
             
             
         }
@@ -72,6 +74,14 @@ public class NoBrokenScript : MonoBehaviour
     public void Pointsclick(BaseEventData data)
     {
 
+        foreach (Transform n in Bcontent.transform)
+        {
+            GameObject.Destroy(n.gameObject);
+        }
+        foreach (Transform o in Ucontent.transform)
+        {
+            GameObject.Destroy(o.gameObject);
+        }
         Debug.Log("ff");
         
         GameObject SelectPoint = (data as PointerEventData).pointerClick;
@@ -85,6 +95,9 @@ public class NoBrokenScript : MonoBehaviour
         PointTerrainText.text = PointTerrain;
         //PointTemperatureText.text = SelectPoint.GetComponent<PointsInfo>().pointTemperature.ToString();
         PointIncomeText.text = PointIncome.ToString();
+
+
+
         foreach(var buildings in SelectPoint.GetComponent<PointsInfo>().pointBuildingList)
         {
             Image BuildingImage = Instantiate(BImage, new Vector3(0, 0, 0), Quaternion.identity);

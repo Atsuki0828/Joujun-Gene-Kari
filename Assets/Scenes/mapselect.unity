@@ -368,7 +368,7 @@ GameObject:
   - component: {fileID: 31739267}
   m_Layer: 5
   m_Name: point65
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,8 +384,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 65
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -476,7 +476,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &34370024
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +505,7 @@ GameObject:
   - component: {fileID: 34370030}
   m_Layer: 5
   m_Name: point61
-  m_TagString: Untagged
+  m_TagString: SeiryokuJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -509,8 +521,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 61
+  m_Father: {fileID: 1504359727}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -601,7 +613,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &42134838
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +637,7 @@ GameObject:
   - component: {fileID: 42134839}
   - component: {fileID: 42134841}
   - component: {fileID: 42134840}
+  - component: {fileID: 42134842}
   m_Layer: 5
   m_Name: EPointWindow
   m_TagString: Untagged
@@ -681,6 +706,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42134838}
   m_CullTransparentMesh: 1
+--- !u!114 &42134842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42134838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Onwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Exitwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &57160440
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +842,7 @@ GameObject:
   - component: {fileID: 57306639}
   m_Layer: 5
   m_Name: point19
-  m_TagString: Untagged
+  m_TagString: SeiryokuD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -788,8 +858,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 19
+  m_Father: {fileID: 482906186}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -880,7 +950,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &57670915
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +1049,10 @@ GameObject:
   - component: {fileID: 60309741}
   - component: {fileID: 60309743}
   - component: {fileID: 60309742}
+  - component: {fileID: 60309744}
+  - component: {fileID: 60309745}
+  - component: {fileID: 60309746}
+  - component: {fileID: 60309747}
   m_Layer: 5
   m_Name: PointWindow0
   m_TagString: Untagged
@@ -1001,7 +1087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: 0}
+  m_AnchoredPosition: {x: 0, y: -4.169998}
   m_SizeDelta: {x: 200, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60309742
@@ -1042,6 +1128,160 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60309740}
   m_CullTransparentMesh: 1
+--- !u!114 &60309744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60309740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Onwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Exitwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 13
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 60309740}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 60309745}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &60309745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60309740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40177c808ecd9491bb84173656406fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Window: {fileID: 0}
+  factor: 0.25
+--- !u!114 &60309746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60309740}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a585d7087c574ba5bb600785e3f1cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 1760795099}
+--- !u!61 &60309747
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60309740}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.73181915, y: 1.102356}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 196.91011, y: 294.8432}
+  m_EdgeRadius: 0.34
 --- !u!1 &65134322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,7 +1298,7 @@ GameObject:
   - component: {fileID: 65134328}
   m_Layer: 5
   m_Name: point68
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1074,8 +1314,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 68
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1166,7 +1406,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &74249452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,7 +1589,7 @@ GameObject:
   - component: {fileID: 98336257}
   m_Layer: 5
   m_Name: point11
-  m_TagString: Untagged
+  m_TagString: SeiryokuB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1353,8 +1605,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 11
+  m_Father: {fileID: 433692020}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1445,7 +1697,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &120699829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,7 +1726,7 @@ GameObject:
   - component: {fileID: 120699835}
   m_Layer: 5
   m_Name: point59
-  m_TagString: Untagged
+  m_TagString: SeiryokuJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1478,8 +1742,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 59
+  m_Father: {fileID: 1504359727}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1570,7 +1834,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &126017582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,7 +1863,7 @@ GameObject:
   - component: {fileID: 126017588}
   m_Layer: 5
   m_Name: point38
-  m_TagString: Untagged
+  m_TagString: SeiryokuG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1603,8 +1879,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 38
+  m_Father: {fileID: 710539542}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1695,7 +1971,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &131762358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1724,77 +2012,17 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2375, y: 1.2375, z: 1.2375}
   m_Children:
-  - {fileID: 875949700}
-  - {fileID: 1784829623}
-  - {fileID: 479730234}
-  - {fileID: 319282496}
-  - {fileID: 688732615}
-  - {fileID: 1635202887}
-  - {fileID: 1221425536}
-  - {fileID: 1697430370}
-  - {fileID: 801382011}
-  - {fileID: 599051412}
-  - {fileID: 2112122001}
-  - {fileID: 98336252}
-  - {fileID: 865834267}
-  - {fileID: 691606507}
-  - {fileID: 1428114778}
-  - {fileID: 1466022611}
-  - {fileID: 1451368445}
-  - {fileID: 424801103}
-  - {fileID: 1157388244}
-  - {fileID: 57306634}
-  - {fileID: 1700194023}
-  - {fileID: 2040229071}
-  - {fileID: 1798594442}
-  - {fileID: 1605155753}
-  - {fileID: 1156631857}
-  - {fileID: 1221345330}
-  - {fileID: 287933752}
-  - {fileID: 1807081816}
-  - {fileID: 578397014}
-  - {fileID: 1410281862}
-  - {fileID: 1941254497}
-  - {fileID: 1644101218}
-  - {fileID: 1830669313}
-  - {fileID: 2018259528}
-  - {fileID: 1103524103}
-  - {fileID: 1227601285}
-  - {fileID: 2077852482}
-  - {fileID: 601622554}
-  - {fileID: 126017583}
-  - {fileID: 1836828955}
-  - {fileID: 971595751}
-  - {fileID: 678263367}
-  - {fileID: 1635459876}
-  - {fileID: 205474736}
-  - {fileID: 1007516747}
-  - {fileID: 217024769}
-  - {fileID: 1812581962}
-  - {fileID: 241949423}
-  - {fileID: 567925160}
-  - {fileID: 745748363}
-  - {fileID: 425190181}
-  - {fileID: 1981432293}
-  - {fileID: 1234110245}
-  - {fileID: 2115434012}
-  - {fileID: 314941453}
-  - {fileID: 2061838690}
-  - {fileID: 1193491483}
-  - {fileID: 1793052818}
-  - {fileID: 507116517}
-  - {fileID: 120699830}
-  - {fileID: 1657361460}
-  - {fileID: 34370025}
-  - {fileID: 1077084260}
-  - {fileID: 609412459}
-  - {fileID: 1445530898}
-  - {fileID: 31739262}
-  - {fileID: 1240025794}
-  - {fileID: 1354035823}
-  - {fileID: 65134323}
-  - {fileID: 1093200106}
-  - {fileID: 171199815}
+  - {fileID: 235102635}
+  - {fileID: 433692020}
+  - {fileID: 1604933202}
+  - {fileID: 482906186}
+  - {fileID: 828404422}
+  - {fileID: 2127915090}
+  - {fileID: 710539542}
+  - {fileID: 647268204}
+  - {fileID: 738968139}
+  - {fileID: 1504359727}
+  - {fileID: 1435510191}
   m_Father: {fileID: 1912792180}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1873,7 +2101,7 @@ GameObject:
   - component: {fileID: 171199820}
   m_Layer: 5
   m_Name: point70
-  m_TagString: Untagged
+  m_TagString: SeiryokuA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1889,8 +2117,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 70
+  m_Father: {fileID: 235102635}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1981,7 +2209,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &187893564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,7 +2475,7 @@ GameObject:
   - component: {fileID: 205474741}
   m_Layer: 5
   m_Name: point43
-  m_TagString: Untagged
+  m_TagString: SeiryokuH
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2251,8 +2491,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 43
+  m_Father: {fileID: 647268204}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2343,7 +2583,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &210420014
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,7 +2691,7 @@ GameObject:
   - component: {fileID: 217024774}
   m_Layer: 5
   m_Name: point45
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2455,8 +2707,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 45
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2547,7 +2799,60 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1 &235102634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 235102635}
+  m_Layer: 5
+  m_Name: SeiryokuA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &235102635
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235102634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 875949700}
+  - {fileID: 1784829623}
+  - {fileID: 479730234}
+  - {fileID: 319282496}
+  - {fileID: 688732615}
+  - {fileID: 171199815}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &241949422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,7 +2869,7 @@ GameObject:
   - component: {fileID: 241949428}
   m_Layer: 5
   m_Name: point47
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2580,8 +2885,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 47
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2672,7 +2977,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &283851509
 GameObject:
   m_ObjectHideFlags: 0
@@ -2764,7 +3081,7 @@ GameObject:
   - component: {fileID: 287933757}
   m_Layer: 5
   m_Name: point26
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2780,8 +3097,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 26
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2873,13 +3190,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 598759910}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -2901,7 +3218,7 @@ GameObject:
   - component: {fileID: 314941458}
   m_Layer: 5
   m_Name: point54
-  m_TagString: Untagged
+  m_TagString: SeiryokuH
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2917,8 +3234,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 54
+  m_Father: {fileID: 647268204}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3009,7 +3326,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &319282495
 GameObject:
   m_ObjectHideFlags: 0
@@ -3022,11 +3351,10 @@ GameObject:
   - component: {fileID: 319282498}
   - component: {fileID: 319282497}
   - component: {fileID: 319282499}
-  - component: {fileID: 319282500}
   - component: {fileID: 319282501}
   m_Layer: 5
   m_Name: point3
-  m_TagString: Untagged
+  m_TagString: SeiryokuA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3042,7 +3370,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
+  m_Father: {fileID: 235102635}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3106,18 +3434,6 @@ MonoBehaviour:
   pointTemperature: 2
   pointBuildingList: 0000000003000000
   pointUnitList: 
---- !u!114 &319282500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319282495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &319282501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3135,10 +3451,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 319282500}
-          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
-          m_MethodName: Onclick
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3272,7 +3588,7 @@ GameObject:
   - component: {fileID: 424801108}
   m_Layer: 5
   m_Name: point17
-  m_TagString: Untagged
+  m_TagString: SeiryokuD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3288,8 +3604,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 17
+  m_Father: {fileID: 482906186}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3380,7 +3696,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &425190180
 GameObject:
   m_ObjectHideFlags: 0
@@ -3397,7 +3725,7 @@ GameObject:
   - component: {fileID: 425190186}
   m_Layer: 5
   m_Name: point50
-  m_TagString: Untagged
+  m_TagString: SeiryokuH
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3413,8 +3741,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 50
+  m_Father: {fileID: 647268204}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3505,7 +3833,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &429226061
 GameObject:
   m_ObjectHideFlags: 0
@@ -3585,6 +3925,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429226061}
   m_CullTransparentMesh: 1
+--- !u!1 &433692019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433692020}
+  m_Layer: 5
+  m_Name: SeiryokuB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &433692020
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433692019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1635202887}
+  - {fileID: 1221425536}
+  - {fileID: 1697430370}
+  - {fileID: 801382011}
+  - {fileID: 599051412}
+  - {fileID: 2112122001}
+  - {fileID: 98336252}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &463437888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3737,7 +4119,7 @@ GameObject:
   - component: {fileID: 479730239}
   m_Layer: 5
   m_Name: point2
-  m_TagString: Untagged
+  m_TagString: SeiryokuA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3753,7 +4135,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
+  m_Father: {fileID: 235102635}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3846,10 +4228,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 479730238}
-          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
-          m_MethodName: Onclick
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3858,6 +4240,46 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &482906185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482906186}
+  m_Layer: 5
+  m_Name: SeiryokuD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &482906186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482906185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 424801103}
+  - {fileID: 57306634}
+  - {fileID: 1700194023}
+  - {fileID: 2040229071}
+  - {fileID: 1798594442}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &502443552
 GameObject:
   m_ObjectHideFlags: 0
@@ -3910,7 +4332,7 @@ GameObject:
   - component: {fileID: 507116522}
   m_Layer: 5
   m_Name: point58
-  m_TagString: Untagged
+  m_TagString: SeiryokuJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3926,8 +4348,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 58
+  m_Father: {fileID: 1504359727}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4018,7 +4440,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &567925159
 GameObject:
   m_ObjectHideFlags: 0
@@ -4035,7 +4469,7 @@ GameObject:
   - component: {fileID: 567925165}
   m_Layer: 5
   m_Name: point48
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4051,8 +4485,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 48
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4143,7 +4577,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &578397013
 GameObject:
   m_ObjectHideFlags: 0
@@ -4160,7 +4606,7 @@ GameObject:
   - component: {fileID: 578397019}
   m_Layer: 5
   m_Name: point28
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4176,8 +4622,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 28
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4268,7 +4714,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &598759910
 GameObject:
   m_ObjectHideFlags: 0
@@ -4279,6 +4737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 598759911}
   - component: {fileID: 598759912}
+  - component: {fileID: 598759913}
   m_Layer: 0
   m_Name: NoBrokenGameObject
   m_TagString: Untagged
@@ -4330,9 +4789,20 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1af43e12a3694481ea305e3a1be1d0fa, type: 3}
   Bcontent: {fileID: 1093630505}
   UImage: {fileID: 7229086979880793336, guid: 84c48021b92214b7987b8ba9c35f6945, type: 3}
-  UnitSprites:
-  - {fileID: 0}
+  UnitSprites: []
   Ucontent: {fileID: 829098080}
+--- !u!114 &598759913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598759910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9a0368a12f349429e1a9c95c8b1061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &599051411
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,7 +4819,7 @@ GameObject:
   - component: {fileID: 599051417}
   m_Layer: 5
   m_Name: point9
-  m_TagString: Untagged
+  m_TagString: SeiryokuB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4365,8 +4835,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 9
+  m_Father: {fileID: 433692020}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4457,7 +4927,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &600073607
 GameObject:
   m_ObjectHideFlags: 0
@@ -4600,7 +5082,7 @@ GameObject:
   - component: {fileID: 601622559}
   m_Layer: 5
   m_Name: point37
-  m_TagString: Untagged
+  m_TagString: SeiryokuG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4616,8 +5098,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 37
+  m_Father: {fileID: 710539542}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4708,7 +5190,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &609412458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4725,7 +5219,7 @@ GameObject:
   - component: {fileID: 609412464}
   m_Layer: 5
   m_Name: point63
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4741,8 +5235,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 63
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4833,7 +5327,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &610366482
 GameObject:
   m_ObjectHideFlags: 0
@@ -5057,6 +5563,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641052326}
   m_CullTransparentMesh: 1
+--- !u!1 &647268203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647268204}
+  m_Layer: 5
+  m_Name: SeiryokuH
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &647268204
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647268203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1635459876}
+  - {fileID: 205474736}
+  - {fileID: 1007516747}
+  - {fileID: 425190181}
+  - {fileID: 314941453}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &678263366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5073,7 +5619,7 @@ GameObject:
   - component: {fileID: 678263372}
   m_Layer: 5
   m_Name: point41
-  m_TagString: Untagged
+  m_TagString: SeiryokuG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5089,8 +5635,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 41
+  m_Father: {fileID: 710539542}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5181,7 +5727,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &688732614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,7 +5756,7 @@ GameObject:
   - component: {fileID: 688732620}
   m_Layer: 5
   m_Name: point4
-  m_TagString: Untagged
+  m_TagString: SeiryokuA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5214,7 +5772,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
+  m_Father: {fileID: 235102635}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5307,10 +5865,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 688732619}
-          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
-          m_MethodName: Onclick
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5401,7 +5959,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1349774515}
   m_HandleRect: {fileID: 1349774514}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5461,7 +6019,7 @@ GameObject:
   - component: {fileID: 691606512}
   m_Layer: 5
   m_Name: point13
-  m_TagString: Untagged
+  m_TagString: SeiryokuC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5477,8 +6035,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 13
+  m_Father: {fileID: 1604933202}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5569,7 +6127,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &705958564
 GameObject:
   m_ObjectHideFlags: 0
@@ -5645,6 +6215,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705958564}
   m_CullTransparentMesh: 1
+--- !u!1 &710539541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710539542}
+  m_Layer: 5
+  m_Name: SeiryokuG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &710539542
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710539541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1227601285}
+  - {fileID: 2077852482}
+  - {fileID: 601622554}
+  - {fileID: 126017583}
+  - {fileID: 1836828955}
+  - {fileID: 971595751}
+  - {fileID: 678263367}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &738968138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 738968139}
+  m_Layer: 5
+  m_Name: SeiryokuI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &738968139
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738968138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1981432293}
+  - {fileID: 1234110245}
+  - {fileID: 2115434012}
+  - {fileID: 2061838690}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &745748362
 GameObject:
   m_ObjectHideFlags: 0
@@ -5661,7 +6312,7 @@ GameObject:
   - component: {fileID: 745748368}
   m_Layer: 5
   m_Name: point49
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5677,8 +6328,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 49
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5769,7 +6420,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &795157924
 GameObject:
   m_ObjectHideFlags: 0
@@ -5781,6 +6444,7 @@ GameObject:
   - component: {fileID: 795157925}
   - component: {fileID: 795157927}
   - component: {fileID: 795157926}
+  - component: {fileID: 795157928}
   m_Layer: 5
   m_Name: BuildingWindow0
   m_TagString: Untagged
@@ -5849,6 +6513,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 795157924}
   m_CullTransparentMesh: 1
+--- !u!114 &795157928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795157924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Onwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Exitwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &801382010
 GameObject:
   m_ObjectHideFlags: 0
@@ -5861,11 +6570,10 @@ GameObject:
   - component: {fileID: 801382013}
   - component: {fileID: 801382012}
   - component: {fileID: 801382014}
-  - component: {fileID: 801382015}
   - component: {fileID: 801382016}
   m_Layer: 5
   m_Name: point8
-  m_TagString: Untagged
+  m_TagString: SeiryokuB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5881,8 +6589,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 8
+  m_Father: {fileID: 433692020}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5945,18 +6653,6 @@ MonoBehaviour:
   pointTemperature: 1
   pointBuildingList: 000000000000000003000000
   pointUnitList: 
---- !u!114 &801382015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801382010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &801382016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5973,7 +6669,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &825513654
 GameObject:
   m_ObjectHideFlags: 0
@@ -6049,6 +6757,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825513654}
   m_CullTransparentMesh: 1
+--- !u!1 &828404421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 828404422}
+  m_Layer: 5
+  m_Name: SeiryokuE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &828404422
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828404421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1156631857}
+  - {fileID: 1221345330}
+  - {fileID: 287933752}
+  - {fileID: 1941254497}
+  - {fileID: 1644101218}
+  - {fileID: 1830669313}
+  - {fileID: 2018259528}
+  - {fileID: 1103524103}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &829098080
 GameObject:
   m_ObjectHideFlags: 0
@@ -6140,7 +6891,7 @@ GameObject:
   - component: {fileID: 865834272}
   m_Layer: 5
   m_Name: point12
-  m_TagString: Untagged
+  m_TagString: SeiryokuC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6156,8 +6907,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 12
+  m_Father: {fileID: 1604933202}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6248,7 +6999,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &875949699
 GameObject:
   m_ObjectHideFlags: 0
@@ -6261,11 +7024,10 @@ GameObject:
   - component: {fileID: 875949702}
   - component: {fileID: 875949701}
   - component: {fileID: 875949703}
-  - component: {fileID: 875949704}
   - component: {fileID: 875949705}
   m_Layer: 5
   m_Name: point0
-  m_TagString: Untagged
+  m_TagString: SeiryokuA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6281,7 +7043,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
+  m_Father: {fileID: 235102635}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6345,18 +7107,6 @@ MonoBehaviour:
   pointTemperature: 3
   pointBuildingList: 00000000000000000000000003000000
   pointUnitList: 
---- !u!114 &875949704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875949699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &875949705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7079,7 +7829,7 @@ GameObject:
   - component: {fileID: 971595756}
   m_Layer: 5
   m_Name: point40
-  m_TagString: Untagged
+  m_TagString: SeiryokuG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7095,8 +7845,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 40
+  m_Father: {fileID: 710539542}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7187,7 +7937,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &993531498
 GameObject:
   m_ObjectHideFlags: 0
@@ -7310,7 +8072,7 @@ GameObject:
   - component: {fileID: 1007516752}
   m_Layer: 5
   m_Name: point44
-  m_TagString: Untagged
+  m_TagString: SeiryokuH
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7326,8 +8088,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 44
+  m_Father: {fileID: 647268204}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7418,7 +8180,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1009697201
 GameObject:
   m_ObjectHideFlags: 0
@@ -7549,7 +8323,7 @@ GameObject:
   - component: {fileID: 1077084265}
   m_Layer: 5
   m_Name: point62
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7565,8 +8339,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 62
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7657,7 +8431,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1093200105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7674,7 +8460,7 @@ GameObject:
   - component: {fileID: 1093200111}
   m_Layer: 5
   m_Name: point69
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7690,8 +8476,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 69
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7782,7 +8568,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1093630505
 GameObject:
   m_ObjectHideFlags: 0
@@ -7818,7 +8616,7 @@ MonoBehaviour:
     m_Right: 5
     m_Top: 5
     m_Bottom: 5
-  m_ChildAlignment: 2
+  m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 40, y: 40}
@@ -7874,7 +8672,7 @@ GameObject:
   - component: {fileID: 1103524108}
   m_Layer: 5
   m_Name: point34
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7890,8 +8688,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 34
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7982,7 +8780,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1108138656
 GameObject:
   m_ObjectHideFlags: 0
@@ -8275,7 +9085,7 @@ GameObject:
   - component: {fileID: 1156631862}
   m_Layer: 5
   m_Name: point24
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8291,8 +9101,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 24
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8383,7 +9193,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1157388243
 GameObject:
   m_ObjectHideFlags: 0
@@ -8400,7 +9222,7 @@ GameObject:
   - component: {fileID: 1157388249}
   m_Layer: 5
   m_Name: point18
-  m_TagString: Untagged
+  m_TagString: SeiryokuC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8416,8 +9238,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 18
+  m_Father: {fileID: 1604933202}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8508,7 +9330,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1162018910
 GameObject:
   m_ObjectHideFlags: 0
@@ -8600,7 +9434,7 @@ GameObject:
   - component: {fileID: 1193491488}
   m_Layer: 5
   m_Name: point56
-  m_TagString: Untagged
+  m_TagString: SeiryokuJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8616,8 +9450,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 56
+  m_Father: {fileID: 1504359727}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8708,7 +9542,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1206626198
 GameObject:
   m_ObjectHideFlags: 0
@@ -8951,7 +9797,7 @@ GameObject:
   - component: {fileID: 1221345335}
   m_Layer: 5
   m_Name: point25
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8967,8 +9813,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 25
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9059,7 +9905,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1221425535
 GameObject:
   m_ObjectHideFlags: 0
@@ -9072,11 +9930,10 @@ GameObject:
   - component: {fileID: 1221425538}
   - component: {fileID: 1221425537}
   - component: {fileID: 1221425539}
-  - component: {fileID: 1221425540}
   - component: {fileID: 1221425541}
   m_Layer: 5
   m_Name: point6
-  m_TagString: Untagged
+  m_TagString: SeiryokuB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9092,8 +9949,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 6
+  m_Father: {fileID: 433692020}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9156,18 +10013,6 @@ MonoBehaviour:
   pointTemperature: 1
   pointBuildingList: 0300000003000000
   pointUnitList: 
---- !u!114 &1221425540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221425535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1221425541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9185,10 +10030,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1221425540}
-          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
-          m_MethodName: Onclick
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9213,7 +10058,7 @@ GameObject:
   - component: {fileID: 1227601290}
   m_Layer: 5
   m_Name: point35
-  m_TagString: Untagged
+  m_TagString: SeiryokuG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9229,8 +10074,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 35
+  m_Father: {fileID: 710539542}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9321,7 +10166,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1234110244
 GameObject:
   m_ObjectHideFlags: 0
@@ -9338,7 +10195,7 @@ GameObject:
   - component: {fileID: 1234110250}
   m_Layer: 5
   m_Name: point52
-  m_TagString: Untagged
+  m_TagString: SeiryokuI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9354,8 +10211,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 52
+  m_Father: {fileID: 738968139}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9446,7 +10303,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1234767783
 GameObject:
   m_ObjectHideFlags: 0
@@ -9529,7 +10398,7 @@ GameObject:
   - component: {fileID: 1240025799}
   m_Layer: 5
   m_Name: point66
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9545,8 +10414,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 66
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9637,7 +10506,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1277758683
 GameObject:
   m_ObjectHideFlags: 0
@@ -9741,8 +10622,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c7b19f6d8e9af4d51abf6e004454f4a4, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10242,7 +11123,7 @@ GameObject:
   - component: {fileID: 1354035828}
   m_Layer: 5
   m_Name: point67
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10258,8 +11139,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 67
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10350,7 +11231,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1375094700
 GameObject:
   m_ObjectHideFlags: 0
@@ -10550,7 +11443,7 @@ GameObject:
   - component: {fileID: 1410281867}
   m_Layer: 5
   m_Name: point29
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10566,8 +11459,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 29
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10658,7 +11551,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1428114777
 GameObject:
   m_ObjectHideFlags: 0
@@ -10675,7 +11580,7 @@ GameObject:
   - component: {fileID: 1428114783}
   m_Layer: 5
   m_Name: point14
-  m_TagString: Untagged
+  m_TagString: SeiryokuC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10691,8 +11596,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 14
+  m_Father: {fileID: 1604933202}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10783,7 +11688,62 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1 &1435510190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1435510191}
+  m_Layer: 5
+  m_Name: SeiryokuK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1435510191
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435510190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1077084260}
+  - {fileID: 609412459}
+  - {fileID: 1445530898}
+  - {fileID: 31739262}
+  - {fileID: 1240025794}
+  - {fileID: 1354035823}
+  - {fileID: 65134323}
+  - {fileID: 1093200106}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1436976549
 GameObject:
   m_ObjectHideFlags: 0
@@ -10921,7 +11881,7 @@ GameObject:
   - component: {fileID: 1445530903}
   m_Layer: 5
   m_Name: point64
-  m_TagString: Untagged
+  m_TagString: SeiryokuK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10937,8 +11897,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 64
+  m_Father: {fileID: 1435510191}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11029,7 +11989,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: SentakuOnclick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1446815378
 GameObject:
   m_ObjectHideFlags: 0
@@ -11127,7 +12099,7 @@ GameObject:
   - component: {fileID: 1451368450}
   m_Layer: 5
   m_Name: point16
-  m_TagString: Untagged
+  m_TagString: SeiryokuC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11143,8 +12115,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 16
+  m_Father: {fileID: 1604933202}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11235,7 +12207,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1466022610
 GameObject:
   m_ObjectHideFlags: 0
@@ -11252,7 +12236,7 @@ GameObject:
   - component: {fileID: 1466022616}
   m_Layer: 5
   m_Name: point15
-  m_TagString: Untagged
+  m_TagString: SeiryokuC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11268,8 +12252,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 15
+  m_Father: {fileID: 1604933202}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11360,7 +12344,60 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1 &1504359726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504359727}
+  m_Layer: 5
+  m_Name: SeiryokuJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1504359727
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504359726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1193491483}
+  - {fileID: 1793052818}
+  - {fileID: 507116517}
+  - {fileID: 120699830}
+  - {fileID: 1657361460}
+  - {fileID: 34370025}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1510644689
 GameObject:
   m_ObjectHideFlags: 0
@@ -11832,6 +12869,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565309052}
   m_CullTransparentMesh: 1
+--- !u!1 &1604933201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604933202}
+  m_Layer: 5
+  m_Name: SeiryokuC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1604933202
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604933201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 865834267}
+  - {fileID: 691606507}
+  - {fileID: 1428114778}
+  - {fileID: 1466022611}
+  - {fileID: 1451368445}
+  - {fileID: 1157388244}
+  - {fileID: 1605155753}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1605155752
 GameObject:
   m_ObjectHideFlags: 0
@@ -11848,7 +12927,7 @@ GameObject:
   - component: {fileID: 1605155758}
   m_Layer: 5
   m_Name: point23
-  m_TagString: Untagged
+  m_TagString: SeiryokuC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11864,8 +12943,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 23
+  m_Father: {fileID: 1604933202}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11956,7 +13035,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1607399729
 GameObject:
   m_ObjectHideFlags: 0
@@ -12180,11 +13271,10 @@ GameObject:
   - component: {fileID: 1635202889}
   - component: {fileID: 1635202888}
   - component: {fileID: 1635202890}
-  - component: {fileID: 1635202891}
   - component: {fileID: 1635202892}
   m_Layer: 5
   m_Name: point5
-  m_TagString: Untagged
+  m_TagString: SeiryokuB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12200,8 +13290,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 5
+  m_Father: {fileID: 433692020}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12264,18 +13354,6 @@ MonoBehaviour:
   pointTemperature: 1
   pointBuildingList: 000000000000000003000000
   pointUnitList: 
---- !u!114 &1635202891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635202886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1635202892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12293,10 +13371,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1635202891}
-          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
-          m_MethodName: Onclick
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12321,7 +13399,7 @@ GameObject:
   - component: {fileID: 1635459881}
   m_Layer: 5
   m_Name: point42
-  m_TagString: Untagged
+  m_TagString: SeiryokuH
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12337,8 +13415,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 42
+  m_Father: {fileID: 647268204}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12429,7 +13507,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1644101217
 GameObject:
   m_ObjectHideFlags: 0
@@ -12446,7 +13536,7 @@ GameObject:
   - component: {fileID: 1644101223}
   m_Layer: 5
   m_Name: point31
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12462,8 +13552,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 31
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12554,7 +13644,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1648545884
 GameObject:
   m_ObjectHideFlags: 0
@@ -12661,7 +13763,7 @@ GameObject:
   - component: {fileID: 1657361465}
   m_Layer: 5
   m_Name: point60
-  m_TagString: Untagged
+  m_TagString: SeiryokuJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12677,8 +13779,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 60
+  m_Father: {fileID: 1504359727}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12769,7 +13871,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1684279391
 GameObject:
   m_ObjectHideFlags: 0
@@ -12940,11 +14054,10 @@ GameObject:
   - component: {fileID: 1697430372}
   - component: {fileID: 1697430371}
   - component: {fileID: 1697430373}
-  - component: {fileID: 1697430374}
   - component: {fileID: 1697430375}
   m_Layer: 5
   m_Name: point7
-  m_TagString: Untagged
+  m_TagString: SeiryokuB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12960,8 +14073,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 7
+  m_Father: {fileID: 433692020}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13024,18 +14137,6 @@ MonoBehaviour:
   pointTemperature: 0
   pointBuildingList: 000000000000000003000000
   pointUnitList: 
---- !u!114 &1697430374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697430369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1697430375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13052,7 +14153,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1700194022
 GameObject:
   m_ObjectHideFlags: 0
@@ -13069,7 +14182,7 @@ GameObject:
   - component: {fileID: 1700194028}
   m_Layer: 5
   m_Name: point20
-  m_TagString: Untagged
+  m_TagString: SeiryokuD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13085,8 +14198,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 20
+  m_Father: {fileID: 482906186}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13177,7 +14290,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1728137229
 GameObject:
   m_ObjectHideFlags: 0
@@ -13670,11 +14795,10 @@ GameObject:
   - component: {fileID: 1784829625}
   - component: {fileID: 1784829624}
   - component: {fileID: 1784829626}
-  - component: {fileID: 1784829627}
   - component: {fileID: 1784829628}
   m_Layer: 5
   m_Name: point1
-  m_TagString: Untagged
+  m_TagString: SeiryokuA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13690,7 +14814,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
+  m_Father: {fileID: 235102635}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -13754,18 +14878,6 @@ MonoBehaviour:
   pointTemperature: 2
   pointBuildingList: 0000000003000000
   pointUnitList: 
---- !u!114 &1784829627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784829622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b00e6349f05e4fa9aa1c90f24c365d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1784829628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13783,10 +14895,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 11500000, guid: 7a65971ec2c1f428eb4fbabb596d15f7, type: 3}
-          m_TargetAssemblyTypeName: PointSelectScript, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13937,7 +15049,7 @@ GameObject:
   - component: {fileID: 1793052823}
   m_Layer: 5
   m_Name: point57
-  m_TagString: Untagged
+  m_TagString: SeiryokuJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13953,8 +15065,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 57
+  m_Father: {fileID: 1504359727}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14045,7 +15157,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1798594441
 GameObject:
   m_ObjectHideFlags: 0
@@ -14062,7 +15186,7 @@ GameObject:
   - component: {fileID: 1798594447}
   m_Layer: 5
   m_Name: point22
-  m_TagString: Untagged
+  m_TagString: SeiryokuD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14078,8 +15202,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 22
+  m_Father: {fileID: 482906186}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14170,7 +15294,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1807081815
 GameObject:
   m_ObjectHideFlags: 0
@@ -14187,7 +15323,7 @@ GameObject:
   - component: {fileID: 1807081821}
   m_Layer: 5
   m_Name: point27
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14203,8 +15339,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 27
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14295,7 +15431,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1812581961
 GameObject:
   m_ObjectHideFlags: 0
@@ -14312,7 +15460,7 @@ GameObject:
   - component: {fileID: 1812581967}
   m_Layer: 5
   m_Name: point46
-  m_TagString: Untagged
+  m_TagString: SeiryokuF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14328,8 +15476,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 46
+  m_Father: {fileID: 2127915090}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14420,7 +15568,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1830669312
 GameObject:
   m_ObjectHideFlags: 0
@@ -14437,7 +15597,7 @@ GameObject:
   - component: {fileID: 1830669318}
   m_Layer: 5
   m_Name: point32
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14453,8 +15613,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 32
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14545,7 +15705,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1836828954
 GameObject:
   m_ObjectHideFlags: 0
@@ -14562,7 +15734,7 @@ GameObject:
   - component: {fileID: 1836828960}
   m_Layer: 5
   m_Name: point39
-  m_TagString: Untagged
+  m_TagString: SeiryokuG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14578,8 +15750,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 39
+  m_Father: {fileID: 710539542}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14670,7 +15842,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1910850157
 GameObject:
   m_ObjectHideFlags: 0
@@ -14955,7 +16139,7 @@ GameObject:
   - component: {fileID: 1941254502}
   m_Layer: 5
   m_Name: point30
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14971,8 +16155,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 30
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15063,7 +16247,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1952680354
 GameObject:
   m_ObjectHideFlags: 0
@@ -15201,7 +16397,7 @@ GameObject:
   - component: {fileID: 1981432298}
   m_Layer: 5
   m_Name: point51
-  m_TagString: Untagged
+  m_TagString: SeiryokuI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15217,8 +16413,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 51
+  m_Father: {fileID: 738968139}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15309,7 +16505,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1990994963
 GameObject:
   m_ObjectHideFlags: 0
@@ -15321,6 +16529,7 @@ GameObject:
   - component: {fileID: 1990994964}
   - component: {fileID: 1990994966}
   - component: {fileID: 1990994965}
+  - component: {fileID: 1990994967}
   m_Layer: 5
   m_Name: UnitWindow0
   m_TagString: Untagged
@@ -15388,6 +16597,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990994963}
   m_CullTransparentMesh: 1
+--- !u!114 &1990994967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990994963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Onwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760795101}
+          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
+          m_MethodName: Exitwindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1995788619
 GameObject:
   m_ObjectHideFlags: 0
@@ -15558,7 +16812,7 @@ GameObject:
   - component: {fileID: 2018259533}
   m_Layer: 5
   m_Name: point33
-  m_TagString: Untagged
+  m_TagString: SeiryokuE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15574,8 +16828,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 33
+  m_Father: {fileID: 828404422}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15666,7 +16920,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2040229070
 GameObject:
   m_ObjectHideFlags: 0
@@ -15683,7 +16949,7 @@ GameObject:
   - component: {fileID: 2040229076}
   m_Layer: 5
   m_Name: point21
-  m_TagString: Untagged
+  m_TagString: SeiryokuD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15699,8 +16965,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 21
+  m_Father: {fileID: 482906186}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15791,7 +17057,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2061838689
 GameObject:
   m_ObjectHideFlags: 0
@@ -15808,7 +17086,7 @@ GameObject:
   - component: {fileID: 2061838695}
   m_Layer: 5
   m_Name: point55
-  m_TagString: Untagged
+  m_TagString: SeiryokuI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15824,8 +17102,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 55
+  m_Father: {fileID: 738968139}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15916,7 +17194,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2077774635
 GameObject:
   m_ObjectHideFlags: 0
@@ -16012,7 +17302,7 @@ GameObject:
   - component: {fileID: 2077852487}
   m_Layer: 5
   m_Name: point36
-  m_TagString: Untagged
+  m_TagString: SeiryokuG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16028,8 +17318,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 36
+  m_Father: {fileID: 710539542}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16120,7 +17410,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759910}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2088110503
 GameObject:
   m_ObjectHideFlags: 0
@@ -16338,7 +17640,7 @@ GameObject:
   - component: {fileID: 2112122006}
   m_Layer: 5
   m_Name: point10
-  m_TagString: Untagged
+  m_TagString: SeiryokuB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16354,8 +17656,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 10
+  m_Father: {fileID: 433692020}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16446,7 +17748,19 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2115434011
 GameObject:
   m_ObjectHideFlags: 0
@@ -16463,7 +17777,7 @@ GameObject:
   - component: {fileID: 2115434017}
   m_Layer: 5
   m_Name: point53
-  m_TagString: Untagged
+  m_TagString: SeiryokuI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16479,8 +17793,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 131762359}
-  m_RootOrder: 53
+  m_Father: {fileID: 738968139}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16571,7 +17885,62 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1 &2127915089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2127915090}
+  m_Layer: 5
+  m_Name: SeiryokuF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2127915090
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127915089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1807081816}
+  - {fileID: 578397014}
+  - {fileID: 1410281862}
+  - {fileID: 217024769}
+  - {fileID: 1812581962}
+  - {fileID: 241949423}
+  - {fileID: 567925160}
+  - {fileID: 745748363}
+  m_Father: {fileID: 131762359}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2147049236
 GameObject:
   m_ObjectHideFlags: 0

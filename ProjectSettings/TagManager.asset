@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - myhomebase
+  - enemyshomebase
+  - Takenoko
+  - Kinoko
+  - Rangerspointer
+  - Soldierspointer
+  - SeiryokuA
+  - SeiryokuB
+  - SeiryokuC
+  - SeiryokuD
+  - SeiryokuE
+  - SeiryokuF
+  - SeiryokuG
+  - SeiryokuH
+  - SeiryokuI
+  - SeiryokuJ
+  - SeiryokuK
   layers:
   - Default
   - TransparentFX
