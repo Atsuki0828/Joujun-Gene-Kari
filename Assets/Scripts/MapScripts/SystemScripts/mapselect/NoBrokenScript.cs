@@ -45,20 +45,27 @@ public class NoBrokenScript : MonoBehaviour
 
 
 
-
+    [SerializeField]
     GameObject PlayerWindowAvarable;
 
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        //PlayerWindowAvarable.SetActive(false);
-
+        PlayerWindowAvarable.SetActive(false);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape)){
+            SceneManager.LoadScene("title");
+        }
+        //if (PlayerWindowAvarable == false)
+        //{
+        //    WindowScript.isDragging = false;
+        //}
         if (SceneManager.GetActiveScene().name == "map" && hantei == true)
         {
             
@@ -124,8 +131,68 @@ public class NoBrokenScript : MonoBehaviour
             {
                 BuildingImage.sprite = BuildingSprites[3];
             }
+            else if (buildings.ToString() == "Minato")
+            {
+                BuildingImage.sprite = BuildingSprites[4];
+            }
+            else if (buildings.ToString() == "Bokujou")
+            {
+                BuildingImage.sprite = BuildingSprites[5];
+            }
+            else if (buildings.ToString() == "Hatake")
+            {
+                BuildingImage.sprite = BuildingSprites[6];
+            }
+            else if (buildings.ToString() == "SekitanKouzan")
+            {
+                BuildingImage.sprite = BuildingSprites[7];
+            }
+            else if (buildings.ToString() == "KinKouzan")
+            {
+                BuildingImage.sprite = BuildingSprites[8];
+            }
+            else if (buildings.ToString() == "DouKouzan")
+            {
+                BuildingImage.sprite = BuildingSprites[9];
+            }
+            else if (buildings.ToString() == "SuzuKouzan")
+            {
+                BuildingImage.sprite = BuildingSprites[10];
+            }
+            else if (buildings.ToString() == "TetsuKouzan")
+            {
+                BuildingImage.sprite = BuildingSprites[11];
+            }
+            else if (buildings.ToString() == "Areti")
+            {
+                BuildingImage.sprite = BuildingSprites[12];
+            }
+            else if (buildings.ToString() == "Koubou")
+            {
+                BuildingImage.sprite = BuildingSprites[13];
+            }
+            else if (buildings.ToString() == "Kajiba")
+            {
+                BuildingImage.sprite = BuildingSprites[14];
+            }
+            else if (buildings.ToString() == "GunjuKoujou")
+            {
+                BuildingImage.sprite = BuildingSprites[15];
+            }
+            else if (buildings.ToString() == "Koujou")
+            {
+                BuildingImage.sprite = BuildingSprites[16];
+            }
+            else if (buildings.ToString() == "Seitetsujo")
+            {
+                BuildingImage.sprite = BuildingSprites[17];
+            }
+            else if (buildings.ToString() == "Seikoujo")
+            {
+                BuildingImage.sprite = BuildingSprites[18];
+            }
 
-            
+
             //イメージを追加する処理を書いている途中 
         }
         foreach (var units in SelectPoint.GetComponent<PointsInfo>().pointUnitList)
@@ -154,8 +221,18 @@ public class NoBrokenScript : MonoBehaviour
             //イメージを追加する処理を書いている途中 
         }
     }
+    public void WindowCloseOnclick()
+    {
+        PlayerWindowAvarable.SetActive(false);
+    }
     public void SentakuOnclick()
     {
         SceneManager.LoadScene("map");
+
+
+
+
+
+        PlayerWindowAvarable.SetActive(false);
     }
 }

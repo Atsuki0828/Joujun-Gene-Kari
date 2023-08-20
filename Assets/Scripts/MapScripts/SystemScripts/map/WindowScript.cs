@@ -55,13 +55,15 @@ public class WindowScript : MonoBehaviour
         {
             OnDrag();
         }
+
+        Debug.Log("isDragging:"+isDragging);
     }
 
     // ドラッグ開始時の処理
     public void OnBeginDrag(PointerEventData eventData)
     {
 
-        Debug.Log("Start");
+        //Debug.Log("Start");
         // ドラッグ前の位置を記憶しておく
         // RectTransformの場合はpositionではなくanchoredPositionを使う
         prevPos = rectTransform.anchoredPosition;
@@ -74,7 +76,7 @@ public class WindowScript : MonoBehaviour
     //public void OnDrag(PointerEventData eventData)
     public void OnDrag()
     {
-        Debug.Log("Dragging");
+        
         // eventData.positionから、親に従うlocalPositionへの変換を行う
         // オブジェクトの位置をlocalPositionに変更する
 
@@ -95,7 +97,7 @@ public class WindowScript : MonoBehaviour
     // ドラッグ終了時の処理
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("End");
+        //Debug.Log("End");
         // オブジェクトをドラッグ前の位置に戻す
         //rectTransform.anchoredPosition = prevPos;
         isDragging = false;
@@ -105,7 +107,7 @@ public class WindowScript : MonoBehaviour
     private Vector2 GetLocalPosition(Vector2 screenPosition)
     {
         Vector2 result = Vector2.zero;
-
+        
         // screenPositionを親の座標系(parentRectTransform)に対応するよう変換する.
         RectTransformUtility.ScreenPointToLocalPointInRectangle(parentRectTransform, screenPosition, Camera.main, out result);
 

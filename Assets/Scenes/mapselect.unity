@@ -1087,7 +1087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -4.169998}
+  m_AnchoredPosition: {x: 300, y: -4.169998}
   m_SizeDelta: {x: 200, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60309742
@@ -1141,50 +1141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1760795101}
-          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
-          m_MethodName: Onwindow
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1760795101}
-          m_TargetAssemblyTypeName: MapCameraAct, Assembly-CSharp
-          m_MethodName: Exitwindow
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
   - eventID: 13
     callback:
       m_PersistentCalls:
@@ -1555,7 +1511,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 07f1e43688a6e4fe58bfde5a70cd90e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4787,10 +4743,26 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8a6a415b5ec054177b3652711fde4448, type: 3}
   - {fileID: 21300000, guid: 54db53f818b8a48b8aaffd916b9675a1, type: 3}
   - {fileID: 21300000, guid: 1af43e12a3694481ea305e3a1be1d0fa, type: 3}
+  - {fileID: 21300000, guid: 215982bc7796a4000b3de5b023f37555, type: 3}
+  - {fileID: 21300000, guid: 6f1226b470dbe4669a55a85333e908f3, type: 3}
+  - {fileID: 21300000, guid: 3ac8660a4708248b4a16531c5dc98294, type: 3}
+  - {fileID: 21300000, guid: 20a6a0c68b1094f75ae20e227bc64a14, type: 3}
+  - {fileID: 21300000, guid: a10ff39800cbd493c9261a065854f176, type: 3}
+  - {fileID: 21300000, guid: 219244414943242909eb405a2f50e8f9, type: 3}
+  - {fileID: 21300000, guid: 7af80d896496e4d9d9ad0d89fc2d93b0, type: 3}
+  - {fileID: 21300000, guid: 7605b4c46ffdc47c4a4d9c95aa1838e0, type: 3}
+  - {fileID: 21300000, guid: 8bac0bd7032774478990705ed365a400, type: 3}
+  - {fileID: 21300000, guid: 98b8b23192a8b4b1a86f3c58aab4f445, type: 3}
+  - {fileID: 21300000, guid: 1905721b32a7c421c8a0b78ee4530680, type: 3}
+  - {fileID: 21300000, guid: 46b38e6c7d4404224b9f4b97254f18be, type: 3}
+  - {fileID: 21300000, guid: 199590d52b9dd4b2f94fa182d31da53d, type: 3}
+  - {fileID: 21300000, guid: 942cf9b0a63c44d11bafa203713266f0, type: 3}
+  - {fileID: 21300000, guid: 52ff9ee9706dc4a37a22ec93a305d7bd, type: 3}
   Bcontent: {fileID: 1093630505}
   UImage: {fileID: 7229086979880793336, guid: 84c48021b92214b7987b8ba9c35f6945, type: 3}
   UnitSprites: []
   Ucontent: {fileID: 829098080}
+  PlayerWindowAvarable: {fileID: 60309740}
 --- !u!114 &598759913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5959,7 +5931,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1349774515}
   m_HandleRect: {fileID: 1349774514}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -10532,7 +10504,7 @@ GameObject:
   - component: {fileID: 1277758686}
   - component: {fileID: 1277758685}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: WindowCloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10601,7 +10573,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1277758686}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 598759912}
+        m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+        m_MethodName: WindowCloseOnclick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1277758686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10615,7 +10599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10880,7 +10864,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2103329963}
   m_HandleRect: {fileID: 2103329962}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -11992,8 +11976,8 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 598759912}
           m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
-          m_MethodName: SentakuOnclick
-          m_Mode: 1
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17411,13 +17395,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 598759910}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
+        - m_Target: {fileID: 598759912}
+          m_TargetAssemblyTypeName: NoBrokenScript, Assembly-CSharp
+          m_MethodName: Pointsclick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
