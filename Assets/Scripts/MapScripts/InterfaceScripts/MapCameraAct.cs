@@ -35,7 +35,6 @@ public class MapCameraAct : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("isClicked" + isClicked);
         if (WindowScript.isDragging) return;
 
         if (cam == null)

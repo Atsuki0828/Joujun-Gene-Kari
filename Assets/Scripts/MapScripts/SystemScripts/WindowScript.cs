@@ -5,10 +5,13 @@ using UnityEngine.EventSystems;
 
 public class WindowScript : MonoBehaviour
 {
+    [SerializeField]
+    GameObject WindowAvarable;
+
+
     private Vector2 prevPos; //保存しておく初期position
     private RectTransform rectTransform; // 移動したいオブジェクトのRectTransform
     private RectTransform parentRectTransform; // 移動したいオブジェクトの親(Panel)のRectTransform
-    public GameObject Window;
 
     public static bool isDragging = false;
     public float factor = 1f;
@@ -24,6 +27,8 @@ public class WindowScript : MonoBehaviour
 
     private void Start()
     {
+        WindowAvarable.SetActive(false);
+
         //add EventTrigger
         TryGetComponent(out EventTrigger eventTrigger);
 
@@ -49,6 +54,7 @@ public class WindowScript : MonoBehaviour
         //eventTrigger.triggers.Add(entry3);
     }
 
+
     private void Update()
     {
         if (isDragging)
@@ -56,7 +62,6 @@ public class WindowScript : MonoBehaviour
             OnDrag();
         }
 
-        Debug.Log("isDragging:"+isDragging);
     }
 
     // ドラッグ開始時の処理
@@ -114,5 +119,9 @@ public class WindowScript : MonoBehaviour
         return result;
 
 
+    }
+    public void WindowCloseOnclick()
+    {
+        WindowAvarable.SetActive(false);
     }
 }

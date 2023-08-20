@@ -42,8 +42,10 @@ public class NoBrokenScript : MonoBehaviour
     Sprite[] UnitSprites;
     [SerializeField]
     GameObject Ucontent;
+    [SerializeField]
+    string CountryName;
 
-
+    public static string MySeiryokuName;
 
     [SerializeField]
     GameObject PlayerWindowAvarable;
@@ -52,7 +54,7 @@ public class NoBrokenScript : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        PlayerWindowAvarable.SetActive(false);
+        //PlayerWindowAvarable.SetActive(false);
         
     }
 
@@ -85,7 +87,7 @@ public class NoBrokenScript : MonoBehaviour
     }
     public void Pointsclick(BaseEventData data)
     {
-        PlayerWindowAvarable.SetActive(true); 
+        PlayerWindowAvarable.SetActive(true);
         foreach (Transform n in Bcontent.transform)
         {
             GameObject.Destroy(n.gameObject);
@@ -94,7 +96,6 @@ public class NoBrokenScript : MonoBehaviour
         {
             GameObject.Destroy(o.gameObject);
         }
-        Debug.Log("ff");
         
         GameObject SelectPoint = (data as PointerEventData).pointerClick;
         SelectPointName = SelectPoint.name;
@@ -107,10 +108,11 @@ public class NoBrokenScript : MonoBehaviour
         PointTerrainText.text = PointTerrain;
         //PointTemperatureText.text = SelectPoint.GetComponent<PointsInfo>().pointTemperature.ToString();
         PointIncomeText.text = PointIncome.ToString();
+        SeiryokuHanbetu();
 
 
 
-        foreach(var buildings in SelectPoint.GetComponent<PointsInfo>().pointBuildingList)
+        foreach (var buildings in SelectPoint.GetComponent<PointsInfo>().pointBuildingList)
         {
             Image BuildingImage = Instantiate(BImage, new Vector3(0, 0, 0), Quaternion.identity);
             BuildingImage.transform.SetParent(Bcontent.transform, false);
@@ -221,18 +223,62 @@ public class NoBrokenScript : MonoBehaviour
             //イメージを追加する処理を書いている途中 
         }
     }
-    public void WindowCloseOnclick()
-    {
-        PlayerWindowAvarable.SetActive(false);
-    }
+    
     public void SentakuOnclick()
     {
         SceneManager.LoadScene("map");
 
-
-
-
-
         PlayerWindowAvarable.SetActive(false);
+        SeiryokuHanbetu();
+    }
+
+    public void SeiryokuHanbetu()
+    {
+        if (GameObject.Find(SelectPointName).tag == "SeiryokuA")
+        {
+            CountryName = "A_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuB")
+        {
+            CountryName = "B_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuC")
+        {
+            CountryName = "C_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuD")
+        {
+            CountryName = "D_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuB")
+        {
+            CountryName = "E_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuE")
+        {
+            CountryName = "F_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuF")
+        {
+            CountryName = "G_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuH")
+        {
+            CountryName = "H_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuI")
+        {
+            CountryName = "I_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuJ")
+        {
+            CountryName = "J_Country";
+        }
+        else if (GameObject.Find(SelectPointName).tag == "SeiryokuK")
+        {
+            CountryName = "K_Country";
+        }
+        MySeiryokuName = CountryName;
+        Debug.Log(CountryName);
     }
 }
