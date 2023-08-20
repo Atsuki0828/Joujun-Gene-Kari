@@ -12,7 +12,7 @@ public class NoBrokenScript : MonoBehaviour
     [SerializeField]
     PointsInfo pointinfocs;
     [SerializeField]
-    string SelectPointName;
+    public static string SelectPointName { get; private set; }
     [SerializeField]
     string PointName;
     [SerializeField]

@@ -19,12 +19,14 @@ public class UIScript : MonoBehaviour
     public int Money;
     public int Income;
 
-
+    [SerializeField]
     GameObject ParentSeiryokuobj;
+    string MyTagName;
     void Start()
     {
-        Name = this.gameObject.GetComponent<MapSceneManager>().SeiryokuName;
-        ParentSeiryokuobj = GameObject.Find(GameObject.Find(Name).tag);
+        
+        MyTagName = GameObject.Find(NoBrokenScript.SelectPointName).tag;
+        ParentSeiryokuobj = GameObject.Find(MyTagName);
         SeiryokuNameText.text = Name;
 
     }
@@ -32,8 +34,10 @@ public class UIScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Name = this.gameObject.GetComponent<MapSceneManager>().SeiryokuName;
         int i = -1;
-        
+        Debug.Log("POBJ : " + MyTagName);
+        Debug.Log("Find : " + ParentSeiryokuobj.transform);
         while (ParentSeiryokuobj.transform.GetChild(i + 1) != null)
         {
             Income += ParentSeiryokuobj.transform.GetChild(i).GetComponent<PointsInfo>().PointIncome;
