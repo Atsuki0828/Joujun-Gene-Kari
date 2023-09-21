@@ -215,7 +215,6 @@ GameObject:
   - component: {fileID: 17286209}
   - component: {fileID: 17286211}
   - component: {fileID: 17286210}
-  - component: {fileID: 17286212}
   - component: {fileID: 17286213}
   - component: {fileID: 17286214}
   m_Layer: 5
@@ -293,20 +292,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17286208}
   m_CullTransparentMesh: 1
---- !u!114 &17286212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17286208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40177c808ecd9491bb84173656406fb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WindowAvarable: {fileID: 17286208}
-  factor: 1
 --- !u!114 &17286213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,7 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WindowAvarable: {fileID: 17286208}
-  factor: 1
+  factor: 0.25
 --- !u!1 &32975317
 GameObject:
   m_ObjectHideFlags: 0
@@ -15375,6 +15360,7 @@ MonoBehaviour:
   PowerValue: 0
   Money: 0
   Income: 0
+  ParentSeiryokuobj: {fileID: 0}
 --- !u!1 &1710525879
 GameObject:
   m_ObjectHideFlags: 0
@@ -15595,7 +15581,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 17286212}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: WindowScript, Assembly-CSharp
         m_MethodName: WindowCloseOnclick
         m_Mode: 1

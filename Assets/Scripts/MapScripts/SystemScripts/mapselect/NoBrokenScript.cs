@@ -99,11 +99,12 @@ public class NoBrokenScript : MonoBehaviour
         
         GameObject SelectPoint = (data as PointerEventData).pointerClick;
         SelectPointName = SelectPoint.name;
+
         PointName = SelectPoint.GetComponent<PointsInfo>().Name;
         PointTerrain = SelectPoint.GetComponent<PointsInfo>().pointTerrain.ToString();
         PointTemperature = SelectPoint.GetComponent<PointsInfo>().pointTemperature.ToString();
         PointIncome = SelectPoint.GetComponent<PointsInfo>().PointIncome;
-        Debug.Log(PointName);
+        
         PointNameText.text = PointName;
         PointTerrainText.text = PointTerrain;
         //PointTemperatureText.text = SelectPoint.GetComponent<PointsInfo>().pointTemperature.ToString();

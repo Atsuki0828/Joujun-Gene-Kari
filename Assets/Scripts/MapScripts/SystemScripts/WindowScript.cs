@@ -81,22 +81,26 @@ public class WindowScript : MonoBehaviour
     //public void OnDrag(PointerEventData eventData)
     public void OnDrag()
     {
-        
+
         // eventData.positionから、親に従うlocalPositionへの変換を行う
         // オブジェクトの位置をlocalPositionに変更する
 
-        //Vector2 localPosition = GetLocalPosition(eventData.position);
+        /*
+        Vector2 localPosition = GetLocalPosition(eventData.position);
 
-        //var fixPos = Input.mousePosition - new Vector3(Screen.width / 2f, Screen.height / 2f);
-        //Debug.Log("Fix pos: " + fixPos);
+        var fixPos = Input.mousePosition - new Vector3(Screen.width / 2f, Screen.height / 2f);
+        Debug.Log("Fix pos: " + fixPos);
 
-        ////Vector2 localPosition = GetLocalPosition(Input.mousePosition*10);
-        //Vector2 localPosition = GetLocalPosition(fixPos);
-        //rectTransform.anchoredPosition = localPosition;
+        //Vector2 localPosition = GetLocalPosition(Input.mousePosition*10);
+        Vector2 localPosition = GetLocalPosition(fixPos);
+        rectTransform.anchoredPosition = localPosition;
+        */
 
         var currentMousePos = Input.mousePosition;
         var delta = currentMousePos - firstMousePos;
         rectTransform.anchoredPosition = firstPos + delta * factor;
+
+        
     }
 
     // ドラッグ終了時の処理
