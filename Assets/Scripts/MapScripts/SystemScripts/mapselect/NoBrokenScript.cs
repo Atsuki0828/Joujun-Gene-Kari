@@ -14,6 +14,8 @@ public class NoBrokenScript : MonoBehaviour
     [SerializeField]
     public static string SelectPointName { get; private set; }
     [SerializeField]
+    public static string SelectPointTag { get; private set; }
+    [SerializeField]
     string PointName;
     [SerializeField]
     string PointTerrain;
@@ -227,8 +229,9 @@ public class NoBrokenScript : MonoBehaviour
     
     public void SentakuOnclick()
     {
+        SelectPointTag = GameObject.Find(SelectPointName).tag;
+        //Debug.Log(SelectPointTag);
         SceneManager.LoadScene("map");
-
         PlayerWindowAvarable.SetActive(false);
         SeiryokuHanbetu();
     }

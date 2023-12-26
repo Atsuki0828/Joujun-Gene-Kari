@@ -3727,7 +3727,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointinfocs: {fileID: 0}
-  SelectPointName: 
   PointName: 
   PointTerrain: 
   PointTemperature: 

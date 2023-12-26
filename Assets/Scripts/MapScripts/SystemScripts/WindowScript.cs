@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class WindowScript : MonoBehaviour
 {
@@ -18,6 +19,36 @@ public class WindowScript : MonoBehaviour
 
     private Vector3 firstPos;
     private Vector3 firstMousePos;
+
+    //[SerializeField]
+    //string PointName;
+    //[SerializeField]
+    //string PointTerrain;
+    //[SerializeField]
+    //string PointTemperature;
+    //[SerializeField]
+    //int PointIncome;
+    //[SerializeField]
+    //private Text PointNameText;
+    //[SerializeField]
+    //private Text PointTerrainText;
+    //[SerializeField]
+    //private Text PointTemperatureText;
+    //[SerializeField]
+    //private Text PointIncomeText;
+    //[SerializeField]
+    //Image BImage;
+    //[SerializeField]
+    //Sprite[] BuildingSprites;
+    //[SerializeField]
+    //GameObject Bcontent;
+    //[SerializeField]
+    //Image UImage;
+    //[SerializeField]
+    //Sprite[] UnitSprites;
+    //[SerializeField]
+    //GameObject Ucontent;
+
 
     private void Awake()
     {
@@ -127,5 +158,9 @@ public class WindowScript : MonoBehaviour
     public void WindowCloseOnclick()
     {
         WindowAvarable.SetActive(false);
+
     }
+
+
+    
 }
