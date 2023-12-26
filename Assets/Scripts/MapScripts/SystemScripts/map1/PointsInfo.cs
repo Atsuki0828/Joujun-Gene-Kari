@@ -28,6 +28,7 @@ public class PointsInfo : MonoBehaviour
     public PointTemperature pointTemperature;
     public PointBuilding[] pointBuildingList;
     public PointUnit[] pointUnitList;
+    //ポイントがどの国に所属しているかを明らかにするための処理を書きたい
 
 
 

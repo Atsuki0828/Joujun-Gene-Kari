@@ -140,7 +140,7 @@ public class CoreScript : SingletonMonoBehaviour<CoreScript>
             int slideIndex = i - CWeaponsCountArray.Length;
             if (LWeaponsDatabase.itemList[slideIndex] == item)
             {
-                int afterCount = LWeaponsCountArray[slideIndex] - 1;
+                int afterCount = LWeaponsCountArray[slideIndex] - 1; //CWeaponsArrayの一番上のitemは売却処理に含めない事による処理。
                 if (afterCount < 0)
                 {
                     return false;

@@ -45,7 +45,7 @@ public class WindowButtonScript : MonoBehaviour
     }
     public void BWindow()
     {
-
+        
     }
     public void UWindow()
     {
