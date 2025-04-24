@@ -24,7 +24,7 @@ public class UIScript : MonoBehaviour
     string MyTagName;
     void Start()
     {
-        Name = this.gameObject.GetComponent<MapSceneManager>().SeiryokuName;
+        Name = Mapselectmanager.Instance.SeiryokuName;
         MyTagName = GameObject.Find(NoBrokenScript.SelectPointName).tag;
         ParentSeiryokuobj = GameObject.Find(MyTagName);
         SeiryokuNameText.text = Name;

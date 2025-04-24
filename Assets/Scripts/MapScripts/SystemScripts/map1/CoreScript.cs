@@ -16,7 +16,7 @@ public class CoreScript : SingletonMonoBehaviour<CoreScript>
     Text powerpointstext;
     [SerializeField]
     Text incometext;
-    [SerializeField]
+    
     //public int turncounts = 1;
     public ReactiveProperty<int> turncounts = new ReactiveProperty<int>(0);
     public ReactiveProperty<int> money = new ReactiveProperty<int>(0);
@@ -38,6 +38,7 @@ public class CoreScript : SingletonMonoBehaviour<CoreScript>
     // Start is called before the first frame update
     void Start()
     {
+        
         //ArmorsCountArray = new int[ArmorsDatabase.itemList.Count];
         //CWeaponsCountArray = new int[CWeaponsDatabase.itemList.Count];
         //LWeaponsCountArray = new int[LWeaponsDatabase.itemList.Count];
